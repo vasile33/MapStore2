@@ -11,6 +11,7 @@ const {addLocaleData} = require('react-intl');
 
 const en = require('react-intl/locale-data/en');
 const it = require('react-intl/locale-data/it');
+const it = require('react-intl/locale-data/ro');
 const fr = require('react-intl/locale-data/fr');
 const de = require('react-intl/locale-data/de');
 const es = require('react-intl/locale-data/es');
@@ -23,7 +24,7 @@ const fi = require('react-intl/locale-data/fi');
 const sv = require('react-intl/locale-data/sv');
 const sk = require('react-intl/locale-data/sk');
 
-addLocaleData([...en, ...it, ...fr, ...de, ...es, ...nl, ...zh, ...hr, ...pt, ...vi, ...fi, ...sv, ...sk]);
+addLocaleData([...en, ...it, ...ro, ...fr, ...de, ...es, ...nl, ...zh, ...hr, ...pt, ...vi, ...fi, ...sv, ...sk]);
 
 /*
  * it, en, fr, de, es are the default locales and it is preferrable to customize them via configuration.
@@ -37,6 +38,10 @@ let supportedLocales = {
     "en": {
         code: "en-US",
         description: "English"
+    },
+    "ro": {
+        code: "ro-RO",
+        description: "Română"
     },
     "fr": {
         code: "fr-FR",
@@ -92,7 +97,8 @@ export const DATE_FORMATS = {
     "hr-HR": "DD/MM/YYYY",
     "pt-PT": "DD/MM/YYYY",
     "vi-VN": "DD/MM/YYYY",
-    "fi-FI": "DD/MM/YYYY"
+    "fi-FI": "DD/MM/YYYY",
+    "ro-RO": "DD/MM/YYYY"
 };
 
 let errorParser = {};
@@ -103,10 +109,11 @@ let errorParser = {};
  */
 let LocaleUtils;
 export const ensureIntl = (callback) => {
-    require.ensure(['intl', 'intl/locale-data/jsonp/en.js', 'intl/locale-data/jsonp/it.js', 'intl/locale-data/jsonp/fr.js', 'intl/locale-data/jsonp/de.js', 'intl/locale-data/jsonp/es.js', 'intl/locale-data/jsonp/nl.js', 'intl/locale-data/jsonp/zh.js', 'intl/locale-data/jsonp/hr.js', 'intl/locale-data/jsonp/vi.js', 'intl/locale-data/jsonp/fi.js', 'intl/locale-data/jsonp/sv.js', 'intl/locale-data/jsonp/sk.js'], (require) => {
+    require.ensure(['intl', 'intl/locale-data/jsonp/en.js', 'intl/locale-data/jsonp/ro.js', 'intl/locale-data/jsonp/it.js', 'intl/locale-data/jsonp/fr.js', 'intl/locale-data/jsonp/de.js', 'intl/locale-data/jsonp/es.js', 'intl/locale-data/jsonp/nl.js', 'intl/locale-data/jsonp/zh.js', 'intl/locale-data/jsonp/hr.js', 'intl/locale-data/jsonp/vi.js', 'intl/locale-data/jsonp/fi.js', 'intl/locale-data/jsonp/sv.js', 'intl/locale-data/jsonp/sk.js'], (require) => {
         global.Intl = require('intl');
         require('intl/locale-data/jsonp/en.js');
         require('intl/locale-data/jsonp/it.js');
+        require('intl/locale-data/jsonp/ro.js');
         require('intl/locale-data/jsonp/fr.js');
         require('intl/locale-data/jsonp/de.js');
         require('intl/locale-data/jsonp/es.js');
@@ -146,7 +153,7 @@ export const getUserLocale = function() {
 };
 export const getLocale = function(query = {}) {
     const key = Object.keys(supportedLocales)[0];
-    const defaultLocale = supportedLocales.en ? { key: 'en', locale: supportedLocales.en } : { key, locale: supportedLocales[key] };
+    const defaultLocale = supportedLocales.ro ? { key: 'ro', locale: supportedLocales.ro } : { key, locale: supportedLocales[key] };
     let locale = supportedLocales[
         LocaleUtils.normalizeLocaleCode(query.locale || (navigator ? navigator.language || navigator.browserLanguage : defaultLocale.key))
     ];

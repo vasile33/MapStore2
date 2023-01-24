@@ -1,0 +1,1982 @@
+{
+    "locale": "ro-RO",
+    "messages": {
+        "Language": "Limba",
+        "msgId0": "{name} luat {numPhotos, plural, =0 {Nici o fotografie} =1 {o fotografie} altă {# fotografii}} în {takenDate, date, long}.",
+        "htmlTest": "{name} {surname}",
+        "about_title": "Despre",
+        "aboutLbl": "Despre",
+        "about_p0-0": "MapStore este un framework pentru  crearea de aplicații cartografice web folosind biblioteci cartografice (GIS) standard, cum ar fi:",
+        "about_p0-1": "și",
+        "about_p1": "MapStore are mai multe aplicații pentru exemplificare:",
+        "about_ul0_li0": "MapViewer este un vizualizator simplu de hărți preconfigurate (opțional stocate într-o bază de date folosind GeoStore)",
+        "about_ul0_li1": "MapPublisher a fost dezvoltat pentru a crea, salva și partaja într-un mod simplu și intuitiv hărți și mashup-uri create selectând conținut provenind din surse cunoscute precum Google Maps și OpenStreetMap sau din servicii furnizate de organizații care utilizează protocoale deschise precum OGC WMS, WFS, WMTS sau TMS și așa mai departe. Pentru mai multe informații verificați",
+        "about_h20": "Licență",
+        "about_p3": "MapStore este un software gratuit și Open Source, este bazat pe OpenLayers 3, Leaflet și ReactJS și este licențiat sub Licența simplificată BSD.",
+        "about_p5-0": "Pentru mai multe informații verificați",
+        "about_a0": "această",
+        "about_p5-1": "pagină.",
+        "about_h21": "Credite",
+        "about_p6": "MapStore este făcut de:",
+        "enable": "Permite",
+        "layers": "Straturi",
+        "warning": "Avertizare",
+        "errorTitleDefault": "Eroare",
+        "errorDefault": "A apărut o eroare",
+        "pageInfoShowMore": "Rezultate {count} din {total}",
+        "showMore": "Afișați mai multe...",
+        "collapse": "Restrânge",
+        "expand": "Extinde",
+        "version": {
+            "label": "Versiune"
+        },
+        "autorefresh": {
+            "of": "de",
+            "updating": "Actualizare ...",
+            "layers": "straturi"
+        },
+        "localeErrors": {
+            "404": "Fișierul de traducere nu a fost găsit"
+        },
+        "details": {
+            "title": "Informații despre această hartă"
+        },
+        "showEmptyMessageGFI": "Afișați mesajul rezultatelor goale în panoul GetFeatureInfo",
+        "remove": "Șterge",
+        "layerProperties": {
+            "windowTitle": "Proprietăți strat",
+            "title": "Titlu",
+            "name": "Nume",
+            "group": "Grup",
+            "general": "General",
+            "description": "Descriere",
+            "display": "Afişează",
+            "style": "Stil",
+            "transparent": "Transparență",
+            "singleTile": "Tile unic",
+            "cached": "Utilizați opțiunile pentru cache",
+            "styleCustom": "Utilizați simbolul cu numele \"{value}\"",
+            "styleListLoadError": "A apărut o eroare la încărcarea listei de simboluri",
+            "stylesRefreshList": "Actualizează lista de simboluri",
+            "format": "Format",
+            "delete": "Șterge",
+            "deleteLayer":"Șterge strat",
+            "deleteLayerMessage": "Doriți să ștergeți acest strat?",
+            "deleteLayerGroup":"Șterge grupul",
+            "deleteLayerGroupMessage": "Doriți cu adevărat să ștergeți acest grup și toate straturile sale?",
+            "confirmDelete": "Sunteți sigur?",
+            "featureTypeError": "Nu se pot încărca atributele stratului",
+            "featureTypeErrorInvalidJSON": "Nu se pot încărca atributele stratului. Răspunsul nu este valid",
+            "elevation": "Altitudine",
+            "titleTranslations": "Traducerea titlului",
+            "groupProperties": "Proprietățile grupului",
+            "featureInfo": "Informații despre elemente",
+            "featureInfoFormatLbl": "Identificați formatul răspunsului",
+            "legenderror": "Legenda nu este disponibilă",
+            "editCustomFormat": "Editați formatul personalizat",
+            "exampleOfResponse": "Exemplu",
+            "changedSettings": "Setări modificate",
+            "changedSettingsAlert": "Închideți panoul de setări fără a salva modificările",
+            "textFormatTitle": "TEXT",
+            "textFormatDescription": "Afișează rezultatele informațiilor caracteristice ca text simplu",
+            "htmlFormatTitle": "HTML",
+            "htmlFormatDescription": "Afișează informațiile despre elemente ca html",
+            "propertiesFormatTitle": "PROPRIETĂȚI",
+            "propertiesFormatDescription": "Afișează informațiile despre elemente ca listă de proprietăți",
+            "templateFormatTitle": "ȘABLON",
+            "templateFormatDescription": "Personalizați formatul informațiilor elementelor",
+            "templateFormatInfoAlert1": "Dați clic pe butonul de editare pentru a adăuga un nou șablon.",
+            "templateFormatInfoAlert2": "Utilizați $ { attribute } pentru a insera proprietățile pe care trebuie să le afișați",
+            "templateFormatInfoAlertExample": "ID-ul funcției este ${ properties }",
+            "templatePreview": "Previzualizare șablon",
+            "tooltip": {
+                "label": "Tooltip",
+                "title": "Titlu",
+                "description": "Descriere",
+                "both": "Titlu și descriere",
+                "none": "Fără Tooltip",
+                "labelPlacement": "Poziție etichetă",
+                "right": "Dreapta",
+                "bottom": "Jos",
+                "top": "Sus"
+            }
+        },
+        "longitude": "Longitudine",
+        "latitude": "Latitudine",
+        "notification": {
+            "update": "Actualizați",
+            "warning": "Avertizare",
+            "success": "Succes",
+            "backgroundLayerNotSupported": "Fundalul selectat anterior nu este acceptat pentru acest tip de hartă. Se va utiliza prima variantă disponibilă.",
+            "noBackgroundLayerSupported": "Nu există straturi de fundal acceptate pentru acest tip de hartă.",
+            "updateOldMap": "Aceasta este o hartă veche, astfel nu toate funcționalitățile pot fi activate. Dați clic pe butonul de actualizare pentru a actualiza harta sau pur și simplu ignorați această notificare dacă nu doriți să o actualizați.",
+            "warningSaveUpdatedMap": "Unele straturi nu au fost actualizate corect",
+            "saveUpdatedMap": "Toate straturile au fost actualizate cu succes",
+            "incompatibleBackgroundAndProjection":"Proiecția selectată nu este compatibilă cu fundalul, treceți la un fundal compatibil sau gol apoi selectați această proiecție!",
+            "incompatibleDataAndProjection":"stratul(straturile) actual(e) și proiecția hărții nu sunt complet compatibile. Părți din date sau toate datele ar putea să nu apară pe hartă"
+        },
+        "dock": {
+            "row": "{rowsSelected} rând selectat",
+            "rows": "{rowsSelected} rânduri selectate"
+        },
+        "globeswitcher": {
+            "tooltipDeactivate": "Ieșiți din modul 3D",
+            "tooltipActivate": "Intrați în modul 3D"
+        },
+        "cookie":{
+            "info": "Acest site web folosește cookie-uri pentru a vă îmbunătăți experiența. Presupunem că sunteți de acord cu acest lucru, în caz contrar puteți renunța dacă doriți.",
+            "moreDetailsButton": "Mai multe detalii",
+            "leave": "Părăsiți",
+            "accept": "Accept"
+        },
+        "background": "Fundal",
+        "language": "Limba",
+        "mousePositionCoordinates": "Indicator de coordonate",
+        "mouseCoordinates": "Coordonate:",
+        "mousePositionCRS": "CRS:",
+        "mousePositionElevation": "Elev.:",
+        "mousePositionNoElevation": "N/A",
+        "elevationLoading": "Se încarcă...",
+        "elevationLoadingError": "Eroare",
+        "elevationNotAvailable": "N/A",
+        "mapScale": "Scară:",
+        "showMousePositionCoordinates": "Afișează/Ascunde coordonatele",
+        "menu": "Meniu",
+        "options": "Opțiuni",
+        "settings": "Setări",
+        "help": "Ajutor",
+        "docs": "Documente",
+        "gohome": "Înapoi la pagina principală",
+        "back": "Înapoi la Import",
+        "printbutton": "Printare",
+        "annotationsbutton": "Adnotări",
+        "noresultfound": "Niciun rezultat găsit",
+        "save": "Salvează",
+        "saveAs": "Salvează ca...",
+        "opacity": "Opacitate",
+        "elevation": "Altitudine",
+        "close": "Închide",
+        "cancel": "Anulare",
+        "no": "Nu",
+        "yes": "Da",
+        "confirm": "Confirmă",
+        "confirmTitle": "Confirmați?",
+        "pageInfo": "{total, plural, =0 {Nici un element} =1 {{total} elemente din {total}} alte {Elemente {start}-{end} din {total}}}",
+        "loading": "Se încarcă...",
+        "group": "Grup",
+        "groups": "Grupuri",
+        "permission": "Permisiune",
+        "permissions": "Permisiuni",
+        "global": {
+            "colors": {
+                "red": "{number, plural, =0 {Roșu} =1 {Roșu} altele {Roșii}}",
+                "blue": "{number, plural, =0 {Albastru} =1 {Albastru} altele {Albastre}}",
+                "green": "{number, plural, =0 {Verzi} =1 {Verzi} altele {Verzi}}",
+                "gray": "{number, plural, =0 {Gri} =1 {Gri} altele {Gri}}",
+                "jet": "{number, plural, =0 {Jet} =1 {Jet} altul {Jet}}",
+                "brown": "{number, plural, =0 {Maro} =1 {Maro} altele {Maro}}",
+                "purple": "{number, plural, =0 {Violet} =1 {Violet} altele {Violet}}",
+                "random": "{number, plural, =0 {Aleatoriu} =1 {Aleatoriu} altele {Aleatorii}}"
+            }
+        },
+        "home":{
+            "open": "Deschis",
+            "shortDescription": "Hartă avansată pentru platforma RO-ADAPT",
+            "forkMeOnGitHub": "Fork me on GitHub",
+            "description": "MapStore a fost dezvoltat pentru a crea, salva și partaja într-un mod simplu și intuitiv hărți și mashup-uri create selectând conținut provenind din surse cunoscute precum Google Maps și OpenStreetMap sau din servicii furnizate de organizații care utilizează protocoale deschise precum OGC WMS, WFS, WMTS sau TMS și așa mai departe. <br/> Accesați <a href =\"https: //mapstore.readthedocs.io/en/latest/\"> pagina principală </a> pentru mai multe detalii.",
+            "Applications": "Aplicații",
+            "Examples": "Exemple",
+            "LinkedinGroup": "Mapstore Linkedin Grup",
+            "scrollTop": "Derulați la partea de sus a paginii",
+            "footerDescription": "<small> GeoSolutions S.a.s. | Via di Montramito 3/A, 55054 Massarosa(Lucca) - Italy info @ geo - solutions.it | Tel: +390584 962313 | Fax: +3905841660272 </small>",
+            "ml": {
+                "title": "Mențineți legătura și fiți la curent cu listele de discuție",
+                "subscribe_users": "Abonați-vă la lista de discuție a utilizatorilor",
+                "subscribe_devel": "Abonați-vă la lista de discuție a dezvoltatorilor",
+                "visit_group": "Vizitați acest grup",
+                "subscribe": "Abonați-vă",
+                "email": "E-mail: "
+            },
+            "examples":{
+                "viewer": {
+                    "html": "<h3> Viewer </h3><p> Viewer simplu </p>"
+                },
+                "3dviewer": {
+                    "html": "<h3> 3D Viewer </h3><p> Vizualizator 3D simplu bazat pe CesiumJS </p>"
+                },
+                "manager": {
+                    "html": "<h3> Manager </h3><p> Vizualizați hărțile MapStore </p>"
+                },
+                "mouseposition": {
+                    "html": "<h3> Controlul poziției mouse-ului </h3><p> Exemple personalizate </p>"
+                },
+                "scalebar": {
+                    "html": "<h3> Controlul scării </h3> <p> Exemple personalizate </p>"
+                },
+                "layertree": {
+                    "html": "<h3> LayerTree avansat </h3> <p> Exemple personalizate </p>"
+                },
+                "queryform": {
+                    "html": "<h3> Query Builder </h3><p> Exemple personalizate </p>"
+                },
+                "featuregrid": {
+                    "html": "<h3>  Editor de elemente </h3><p> Exemple personalizate </p>"
+                },
+                "print": {
+                    "html": "<h3> Printare </h3><p> Exemple personalizate </p>"
+                },
+                "plugins": {
+                    "html": "<h3> Plugin-uri </h3><p> Construiți propria aplicație </p>"
+                },
+                "api": {
+                    "html": "<h3> API </h3><p> Utilizați API-urile pentru a include o hartă MapStore în aplicația dvs. </p>"
+                },
+                "rasterstyler": {
+                    "html": "<h3> Raster Styler </h3><p> Simboliza-ți stratul raster </p>"
+                }
+            }
+        },
+        "cookiesPolicyNotification": {
+            "title": "Acest site web folosește cookie-uri",
+            "message": "Prin continuarea utilizării site-ului nostru web, acceptați utilizarea de cookie-uri.",
+            "confirm": "Sunt de acord"
+        },
+        "manager": {
+            "openInANewTab": "Deschideți harta",
+            "deleteMap": "Șterge harta",
+            "deleteMapMessage": "Doriți să ștergeți această hartă?",
+            "editMapMetadata": "Editați proprietățile hărții",
+            "mapTypes_combo": "Selectați vizualizatorul de hartă:",
+            "theme_combo": "Selectează tema:",
+            "maps_title": "Hărți",
+            "locales_combo": "Limba:",
+            "featuredMaps": "Recomandate"
+        },
+        "newMap": "Hartă nouă",
+        "maps": {
+            "title": "Hărți",
+            "addToFeaturedMaps": "Adăugați la hărțile recomandate",
+            "removeFromFeaturedMaps": "Eliminați din hărțile recomandate",
+            "feedback": {
+                "noDetailsAvailable": "Detaliile nu sunt disponibile",
+                "successSavedMap": "Harta a fost creată corect",
+                "errorDeletingMap": "Eroare la ștergerea acestei hărți",
+                "errorDeletingThumbnailOfMap": "Eroare la ștergerea thumbnail-ului hărții",
+                "errorDeletingDetailsOfMap": "Eroare la ștergerea detaliilor acestei hărți",
+                "allResDeleted": "Toate resursele asociate acestei hărți au fost șterse cu succes",
+                "errorFetchingDetailsOfMap": "Eroare la preluarea detaliilor acestei hărți",
+                "details": {
+                    "deletedSuccesfully": "Detaliile au fost eliminate corect",
+                    "savedSuccesfully": "Detaliile au fost salvate corect",
+                    "updatedSuccesfully": "Detaliile au fost actualizate corect"
+                },
+                "thumbnail": {
+                    "deletedSuccesfully": "Thumbnail-ul a fost eliminat corect",
+                    "savedSuccesfully": "Thumbnail-ul a fost salvat corect",
+                    "updatedSuccesfully": "Thumbnail-ul a fost actualizat corect"
+                },
+                "errorWhenSaving": "A apărut o eroare în timpul procesului de salvare",
+                "errorWhenUpdating": "A apărut o eroare în timpul procesului de actualizare",
+                "errorWhenDeleting": "A apărut o eroare în timpul procesului de ștergere",
+                "errorSizeExceeded": "Vă rugăm, reduceți dimensiunea detaliilor sau calitatea imaginilor"
+            },
+            "search": "Căutare......"
+        },
+        "resources": {
+            "deleteConfirmTitle": "Sunteți sigur",
+            "deleteConfirmMessage": "Sunteți sigur că doriți să ștergeți această resursă?",
+            "deleteConfirmButtonText": "Șterge",
+            "deleteCancelButtonText": "Închide",
+            "resource": {
+                "deleteResource": "Șterge",
+                "editResource": "Editați proprietățile",
+                "addToFeatured": "Evidențiază",
+                "removeFromFeatured": "Elimină punerea în evidență",
+                "showDetails": "Arată detaliile"
+            },
+            "contents": {
+                "title": "Cuprins"
+            },
+            "dashboards": {
+                "newDashboard": "Dashboard nou",
+                "title": "Dashboard ({count})",
+                "titleNoCount": "Dashboards",
+                "create": "Creați dashboard",
+                "noDashboardAvailable": "Nu există dashboard disponibil",
+                "createANewOne": "Creați unul nou",
+                "deleteError": "A apărut o eroare la ștergerea resursei",
+                "errorLoadingDashboards": "A apărut o eroare la încărcarea dashboard-urilor"
+            },
+            "maps": {
+                "title": "Hărți({count})",
+                "noMapAvailable": "Nu există hartă disponibilă",
+                "createNewOne": "Creați una nouă"
+            }
+        },
+        "map": {
+            "errorLoadingFont": "Familia de fonturi {family} nu este corect încărcată. Unele elemente (cum ar fi simbolurile în markere) pot avea probleme de redare",
+            "loading": "Se încarcă...",
+            "loadingSpinner": "Se încarcă harta",
+            "loadingerror": "Eroare în timpul încărcării",
+            "name": "Nume",
+            "description": "Descriere",
+            "namePlaceholder": "Nume hartă",
+            "descriptionPlaceholder": "Descrierea hărții",
+            "saveTitle": "Salvează harta",
+            "saveText": "Salvați harta curentă?",
+            "thumbnail": "Thumbnail",
+            "message": "Faceți drag and drop sau dați clic pentru a importa o imagine",
+            "suggestion": "(cel mai bun 300px X 180px, maxim 500kb)",
+            "errorFormat": "Formate acceptate: png/jpg",
+            "errorSize": "Dimensiunea maximă permisă: 500kb",
+            "error": "Imaginea furnizată este invalidă",
+            "savedMapTitle": "Hartă salvată",
+            "savedMapMessage": "Harta a fost salvată corect",
+            "thumbnailError": {
+                "error403": "Nu aveți voie să actualizați thumbnail-ul",
+                "error404": "A apărut o eroare la crearea thumbnail-ului",
+                "error409": "Există deja un thumbnail cu acest nume",
+                "errorDefault": "Eroare de rețea"
+            },
+            "mapError": {
+                "errorTitle": "Nu se poate salva harta curentă",
+                "error403": "Nu aveți voie să actualizați harta",
+                "error404": "A apărut o eroare la crearea hărții",
+                "error409": "O hartă cu acest nume există deja",
+                "error500": "Eroare server intern. Verificați dacă dimensiunea fișierului de configurare a hărții depășește limita fixă",
+                "errorDefault": "Eroare de rețea"
+            },
+            "permissions": {
+                "noRules": "Fără reguli",
+                "addRule": "Adăugați o regulă...",
+                "selectGroup": "Selectați un grup...",
+                "canView": "Se poate vizualiza",
+                "canWrite": "Se poate edita",
+                "noResult": "Nici un rezultat găsit",
+                "title": "Grupuri de permisiuni"
+            },
+            "details": {
+                "back": "Înapoi",
+                "save": "Salvează",
+                "show": "Afișați fișa cu detalii",
+                "add": "Adăugați detalii noi",
+                "edit": "Editează detaliile",
+                "rowTitle": "Fișă detalii",
+                "title": "Fișă cu detalii - {name}",
+                "undo": "Anulează eliminarea",
+                "showPreview": "Afișați previzualizarea",
+                "hidePreview": "Ascundeți previzualizarea",
+                "delete": "Șterge foaia de detalii",
+                "titleUnsavedChanges": "Sunteți sigur că închideți fără să salvați modificările?",
+                "sureToClose": "Sunteți sigur că închideți fără să salvați modificările?",
+                "fieldsChanged": "Unele câmpuri au fost schimbate"
+            },
+            "errors": {
+                "loading": {
+                    "title": "Eroare la încărcarea hărții",
+                    "notFound": "Harta nu a fost găsită",
+                    "notAccessible": "Harta nu este accesibilă",
+                    "unknownError": "<p><small> Unul dintre următoarele motive ar putea fi cauza: </small> <ul> <li> nu aveți permisiunea de a accesa </li> <li> încercați să accesați o hartă care nu există </li> <li> harta a fost eliminată </li> <li> proiecția hărții nu este configurată </li> </ul> <p>",
+                    "title": "Harta nu poate fi vizualizată"
+                }
+            }
+        },
+        "floatinglegend": {
+            "showTOC": "Afișează straturile",
+            "showLegend": "Arată legenda",
+            "hideLegend": "Ascunde legenda"
+        },
+        "addgroup": {
+            "addbtn": "Adăugă",
+            "groupName": "Numele grupului"
+        },
+        "toc": {
+            "toggleLayerVisibility": "Activează/dezactivează vizibilitatea stratului",
+            "toggleGroupVisibility": "Activează/dezactivează vizibilitatea grupului",
+            "displayLegendAndTools": "Afișați legenda și instrumentele",
+            "zoomToLayerExtent": "Zoom până la dimensiunea stratului",
+            "addLayer": "Adăugați strat",
+            "addLayerToGroup": "Adăugați strat în grupul selectat",
+            "addGroup": "Adăugare grup",
+            "addSubGroup": "Adăugați subgrup în grupul selectat",
+            "toolZoomToLayerTooltip": "Zoom la dimensiunea selectată a stratului",
+            "toolZoomToLayersTooltip": "Zoom la dimensiunea straturilor selectate",
+            "toolLayerSettingsTooltip": "Setările stratului selectat",
+            "toolGroupSettingsTooltip": "Setările grupului selectat",
+            "toolTrashLayerTooltip": "Eliminați stratul selectat",
+            "toolTrashLayersTooltip": "Eliminați straturile selectate",
+            "toolTrashGroupTooltip": "Eliminați grupul selectat",
+            "toolFeaturesGridTooltip": "Tabelul de atribute",
+            "layerFilterTooltip": "Filtrați stratul",
+            "toolDownloadTooltip": "Exportați datele stratului",
+            "noFilteredResults": "Fără rezultate",
+            "filterPlaceholder": "Filtrați straturile",
+            "clearFilter": "Șterge filtrul",
+            "toolReloadLayerTooltip": "Forțați reîncărcarea stratului selectat",
+            "toolReloadLayersTooltip": "Forțați reîncărcarea straturilor selectate",
+            "statusIconOpen": "Închide grup",
+            "statusIconClose": "Deschide grup",
+            "grabLayerIcon": "Mutați și sortați straturile",
+            "grabGroupIcon": "Mutați și sortați grupurile",
+            "toggleLayerVisibilityWarning": "Activează/dezactivează vizibilitatea stratului, Avertisment: stratul nu s-a încărcat corect",
+            "createWidget": "Creați un widget pentru stratul selectat",
+            "editLayerProperties": "Editați proprietățile stratului",
+            "browseData": "Deschideți tabelul de atribute",
+            "removeLayer": "Eliminați stratul",
+            "loadingerror": "Stratul nu a fost încărcat corect sau nu este disponibil",
+            "measure": "Măsurați",
+            "backgroundSwitcher": "Fundaluri",
+            "layers": "Straturi",
+            "drawerButton": "Straturi",
+            "refreshTitle": "Actualizează straturi",
+            "refreshConfirm": "Actualizați",
+            "refreshMessage": "Reîncărcați configurația straturilor WMS de pe server(e)",
+            "refreshError": "Eroare la actualizarea straturilor: ",
+            "epsgNotSupported": "CRS {epsg} nu este acceptat pentru zoom la dimensiunea stratului",
+            "filterIconEnabled": "Dezactivați filtrul stratului",
+            "filterIconDisabled": "Activați filtrul stratului",
+            "refreshOptions": {
+                "bbox": "Actualizați BBOX",
+                "search": "Actualizați opțiunile de căutare",
+                "title": "Actualizați titlul",
+                "dimensions": "Actualizați dimensiunile"
+            },
+            "layerMetadata": {
+                "identifier": "Identificator",
+                "title": "Titlu",
+                "abstract": "Abstract",
+                "subject": "Subiect",
+                "type": "Tip",
+                "creator": "Autor",
+                "toolLayerMetadataTooltip": "Afișați metadatele stratului selectat",
+                "layerMetadataPanelTitle": "Metadatele stratului",
+                "notification": {
+                    "warnigGetMetadataRecordById": "Eroare în căutarea metadatelor"
+                }
+            },
+            "thematic": {
+                "classification_field": "Câmpul de clasificare:",
+                "classification_method": "Metoda de clasificare:",
+                "classification_aggregate": "Funcție agregată:",
+                "classification_colors": "Rampa de culoare:",
+                "classification_intervals": "Intervale:",
+                "preview": "Previzualizare",
+                "remove_thematic": "Înapoi la stilul simplu",
+                "values": {
+                    "equalInterval": "Intervaluri egale",
+                    "quantile": "Quantilă",
+                    "jenks": "Pauze naturale",
+                    "sum": "Sumă",
+                    "avg": "Medie",
+                    "count": "Numără",
+                    "min": "Minim",
+                    "max": "Maxim"
+                },
+                "configuration": "Configurare",
+                "apply": "Aplicați clasificarea",
+                "restore": "Resetați personalizările",
+                "go_to_cfg": "Configurare...",
+                "go_to_thema": "Folosiți această configurație",
+                "cfgError": "Eroare în configurația JSON",
+                "classify": "Clasifică",
+                "remove": "Eliminați clasificarea",
+                "data_panel": "Date",
+                "classification_stroke": "Stroke",
+                "classification_error": "Eroare la apelarea serviciului de clasificare: {message}",
+                "fields_error": "Eroare la încărcarea listelor de câmpuri: {message}",
+                "interval_limit": "Intervalele ar trebui să fie un număr între {min} și {max}",
+                "invalid_object": "Răspuns invalid al serviciului",
+                "invalid_geometry": "Tipul de geometrie nu este valid, nu este un punct, o linie sau un poligon",
+                "invalid_classes": "Maximul trebuie să fie mai mare decât minimul în fiecare clasă"
+            }
+        },
+        "print":{
+            "paneltitle": "Printare",
+            "layout": "Aspect",
+            "sheetsize": "Dimensiunea fișei: ",
+            "legendoptions": "Opțiuni legendă",
+            "submit": "Printare",
+            "title": "Titlu",
+            "titleplaceholder": "Introduceți un titlu...",
+            "description": "Descriere",
+            "descriptionplaceholder": "Introduceți o descriere...",
+            "resolution": "Rezoluție: ",
+            "defaultBackground": "Utilizați OSM ca fundal",
+            "printtooltip": "Printare",
+            "alternatives": {
+                "legend": "Includeți legendă",
+                "2pages": "Legenda pe o pagină distinctă",
+                "landscape": "Peisaj",
+                "portrait": "Portret"
+            },
+            "legend": {
+                "font": "Configurare etichete:",
+                "forceLabels": "Forțează etichetele:",
+                "antiAliasing": "Font Anti Aliasing:",
+                "iconsSize": "Mărimea pictogramelor:",
+                "dpi": "Dpi:"
+            },
+            "layoutWarning": "Layout-ul nu este permis"
+        },
+        "backgroundSwither":{
+            "tooltip": "Selectați fundal"
+        },
+        "info":{
+            "tooltip": "Interogare obiecte pe hartă"
+        },
+        "expandtoolbar": {
+            "tooltip": "Extinde/Restrânge"
+        },
+        "getFeatureInfoTitle": "Informații despre elemente",
+        "identifyTitle": "Informații despre elemente",
+        "identifyNoQueryableLayers": "Stratul interogat nu este activ",
+        "identifyRevGeocodeHeader": "Coordonate",
+        "identifyZoomToFeature": "Zoom la dimensiunea elementului",
+        "identifyStopHighlightingFeatures": "Nu evidențiați elementele",
+        "identifyHighlightFeatures": "Evidențiați elementele",
+        "identifyShowCoordinateEditor": "Afișați editorul de coordonate",
+        "identifyHideCoordinateEditor": "Ascundeți editorul de coordonate",
+        "identifyRevGeocodeModalTitle": "Adresă",
+        "identifyRevGeocodeSubmitText": "Mai multe informații",
+        "identifyRevGeocodeCloseText": "Închide",
+        "identifyRevGeocodeError": "Nu se poate geocoda",
+        "getFeatureInfoError": {
+            "title": "Ooops!Ceva nu este în regulă",
+            "text": "A apărut o eroare în timpul acestei solicitări <b>GetFeatureInfo</b>"
+        },
+        "noFeatureInfo": "Nu există informații disponibile pentru punctul pe care ați dat clic",
+        "noInfoForLayers": "Nu există caracteristici pentru următoarele straturi: ",
+        "history": {
+          "barLabel": "Istoricul hărții",
+          "undoBtnTooltip": "Întoarce-te",
+          "redoBtnTooltip": "Mergi înainte"
+        },
+        "infoFormatLbl": "Identificați formatul de răspuns",
+        "measureSupport": {
+            "continueLine": "Dați clic pentru a continua desenarea liniei",
+            "continuePolygon": "Dați clic pentru a continua desenarea poligonului",
+            "startDrawing": "Dați clic pentru a începe desenarea"
+        },
+        "measureComponent": {
+            "Measure": "Măsurați",
+            "MeasureLength": "Măsurați distanța",
+            "MeasureArea": "Măsurați suprafața",
+            "MeasureBearing": "Măsurați unghiurile",
+            "tooltip": "Măsurați lungimea și suprafața",
+            "title": "Măsurați",
+            "lengthButtonText": "Linie",
+            "areaButtonText": "Zonă",
+            "resetButtonText": "Restabilește",
+            "lengthLabel": "Lungime",
+            "areaLabel": "Zonă",
+            "bearingLabel": "Direcție",
+            "formula": "Formula pentru calculul distanței",
+            "showLabel": "Afișează eticheta de măsurare",
+            "addAsAnnotation": "Adăugați ca adnotare",
+            "newMeasure": "Adnotare nouă",
+            "selectTool": "Selectați un instrument de măsurare"
+        },
+        "search":{
+            "decimal": "Zecimal",
+            "aeronautical": "Aeronautic",
+            "changeSearchInputField": "Modificați instrumentul de căutare",
+            "addressSearch": "Căutați după numele locației",
+            "coordinatesSearch": "Căutați după coordonate",
+            "searchservicesbutton": "Configurați serviciile de căutare",
+            "configpaneltitle": "Creați/editați un serviciu de căutare",
+            "serviceslistlabel": "Servicii disponibile",
+            "overriedservice": "Anulează serviciile implicite",
+            "addbtn": "Adăugă",
+            "nextbtn": "Următorul",
+            "prevbtn": "Înapoi",
+            "savebtn": "Salvare/Actualizare",
+            "cancelbtn": "Anulare",
+            "confirmremove": "Șterge",
+            "cancelconfirm": "Sunteți sigur?",
+            "s_name": "Nume",
+            "s_title": "Titlu",
+            "s_description": "Descriere",
+            "s_priority": "Prioritate",
+            "s_url": "Url serviciu",
+            "s_layer": "Strat",
+            "s_attributes": "Atribute",
+            "s_sort": "Filtrează după",
+            "s_max_features": "Număr maximul de rezultate (Elemente maxime)",
+            "s_wfs_props_label": "Proprietăți serviciu WFS",
+            "s_wfs_opt_props_label": "Proprietăți opționale",
+            "s_result_props_label": "Afișează proprietățile rezultatului",
+            "s_priority_info": "Se folosește pentru a sorta descrescător rezultatele căutării. Rezultatele nominalizate au prioritate = 5",
+            "serviceslistempty": "Nu sunt definite servicii personalizate",
+            "service_missing": "Serviciul {serviceType} nu este configurat",
+            "generic_error": "A apărut o eroare în timpul căutării. Detalii despre eroare: {message}"
+        },
+        "draw": {
+            "fill": "Colorați",
+            "text": "Text",
+            "fontTitle": "Font",
+            "color": "Culoare",
+            "lineDash": "LineDash",
+            "stroke": "Stroke",
+            "opacity": "Opacitate",
+            "width": "Lățime",
+            "font": {
+                "textColor": "Culoare",
+                "family": "Familie",
+                "size": "Mărime",
+                "style": "Stil",
+                "weight": "Greutate",
+                "textAlign": "Aliniere"
+            },
+            "marker": {
+                "layout": "Aspect",
+                "shape": "Formă",
+                "size": "Mărimea",
+                "type": "Tip",
+                "icon": "Simbol"
+            }
+        },
+        "drawLocal": {
+            "draw": {
+                "toolbar": {
+                    "actions": {
+                        "title": "Anulează desenul",
+                        "text": "Anulare"
+                    },
+                    "undo": {
+                        "title": "Șterge ultimul punct desenat",
+                        "text": "Șterge ultimul punct"
+                    },
+                    "buttons": {
+                        "polyline": "Desenați o polilinie",
+                        "polygon": "Desenați un poligon",
+                        "rectangle": "Desenați un dreptunghi",
+                        "circle": "Desenați un cerc",
+                        "marker": "Desenați un marker"
+                    }
+                },
+                "handlers": {
+                    "circle": {
+                        "tooltip": {
+                            "start": "Dați clic și trasați pentru a desena un cerc."
+                        }
+                    },
+                    "marker": {
+                        "tooltip": {
+                            "start": "Dați clic pe hartă pentru a plasa un marker."
+                        }
+                    },
+                    "polygon": {
+                        "tooltip": {
+                            "start": "Dați clic pentru a începe să desenați o geometrie.",
+                            "cont": "Dați clic pentru a continua să desenați o geometrie.",
+                            "end": "Dați clic pe primul punct pentru a închide această geometrie."
+                        }
+                    },
+                    "polyline": {
+                        "error": "Eroare: marginile geometriei nu trebuie să fie încrucișate!",
+                        "tooltip": {
+                            "start": "Dați clic pentru a începe să desenați o linie.",
+                            "cont": "Dați clic pentru a continua desenarea liniei.",
+                            "end": "Dați clic pe ultimul punct pentru a termina linia."
+                        }
+                    },
+                    "rectangle": {
+                        "tooltip": {
+                            "start": "Dați clic și trasați pentru a desena un dreptunghi."
+                        }
+                    },
+                    "simpleshape": {
+                        "tooltip": {
+                            "end": "Eliberați mouse-ul pentru a termina desenul."
+                        }
+                    }
+                }
+            },
+            "edit": {
+                "toolbar": {
+                    "actions": {
+                        "save": {
+                            "title": "Salvează modificările.",
+                            "text": "Salvează"
+                        },
+                        "cancel": {
+                            "title": "Anulați editarea, renunțați la toate modificările.",
+                            "text": "Anulare"
+                        }
+                    },
+                    "buttons": {
+                        "edit": "Editați straturile.",
+                        "editDisabled": "Nu există straturi de editat.",
+                        "remove": "Șterge straturile.",
+                        "removeDisabled": "Nu există straturi de șters."
+                    }
+                },
+                "handlers": {
+                    "edit": {
+                        "tooltip": {
+                            "text": "Faceți drag sau selectați pentru a edita un element.",
+                            "subtext": "Dați clic pe Cancel pentru a anula modificările."
+                        }
+                    },
+                    "remove": {
+                        "tooltip": {
+                            "text": "Dați clic pe un element pentru a îl elimina"
+                        }
+                    }
+                }
+            }
+        },
+        "locate": {
+            "tooltip": "Localizează-mă",
+            "metersUnit": "metri",
+            "feetUnit": "picioare",
+            "popup": "Vă aflați la {distance} {unit} de acest punct",
+            "outsideMapBoundsMsg": "Se pare că sunteți localizat în afara limitelor hărții"
+        },
+        "zoombuttons": {
+            "zoomInTooltip": "Măriți zoom-ul",
+            "zoomOutTooltip": "Reduceți zoom-ul",
+            "zoomAllTooltip": "Măriți până la dimensiunea maximă"
+        },
+        "fullscreen": {
+            "tooltipActivate": "Treceți la ecran complet",
+            "tooltipDeactivate": "Ieșiți din ecran complet",
+            "viewLargerMap": "Vedeți harta mai mare"
+        },
+        "helptexts": {
+            "scaleBox": "Acesta este textul de ajutor pentru ScaleBox",
+            "zoomToMaxExtentButton": "Acesta este textul de ajutor pentru ZoomToMaxExtentButton",
+            "zoomIn": "Acesta este textul de ajutor pentru ZoomIn",
+            "zoomOut": "Acesta este textul de ajutor pentru ZoomOut",
+            "searchBar": "Scrieți adresa unui pe care doriți să îl găsiți.De exemplu: 'Mehadia 16, Bucuresti'.Puteți insera chiar și coordonate în acest format: 43.87,10.20",
+            "metadataexplorer": "Acesta este textul de ajutor pentru MetadataExplorer",
+            "settingsPanel": "Acesta este textul de ajutor pentru SettingsPanel",
+            "gohome": "Acesta este textul de ajutor pentru Acasă",
+            "measureComponent": "Acesta este textul de ajutor pentru MeasureComponent",
+            "backgroundSwitcher": "Acesta este textul de ajutor pentru BackgroundSwitcher",
+            "layerSwitcher": "Acesta este textul de ajutor pentru LayerSwitcher",
+            "infoButton": "Acesta este textul de ajutor pentru InfoButton",
+            "locateBtn": "Acesta este textul de ajutor pentru LocateBtn",
+            "snapshot": "Acesta este textul de ajutor pentru Snapshot",
+            "print": "Acesta este textul de ajutor pentru Print",
+            "shapefile": "Acesta este textul de ajutor pentru Shapefile",
+            "rasterstyler": "Definiți valoarea minimă, valoarea maximă, numărul de clase și rampa de culoare pentru a genera o nouă clasificare pentru stratul raster selectat",
+            "expandToolbar": "Acesta este textul de ajutor pentru Extinde/Restrângere",
+            "historyundo": "Utilizați acest buton pentru a merge la vizualizarea anterioară a hărții",
+            "historyredo": "Folosiți acest buton pentru a merge la următoarea vizualizare a hărții",
+            "vectorstyler": "Adăugați o regulă și creați un stil pentru stratul vectorial selectat",
+            "styler": "Adăugați o regulă și creați un nou stil pentru stratul selectatl"
+        },
+        "queryform": {
+            "title": "Cautare Avansată",
+            "query": "Căutare",
+            "apply": "Aplică",
+            "reset": "Resetează",
+            "save": "Salvează",
+            "discard": "Anulează",
+            "query_request_exception": "Eroare de solicitare",
+            "config": {
+                "load_config_exception": "Eroare la încărcarea configurației"
+            },
+            "comboField": {
+                "default_placeholder": "Selectați...",
+                "drop_down": "Deaschideți meniul derulant"
+            },
+            "form": {
+                "header": "Găsiți în setul de date",
+                "dataset_header": "Setul de date"
+            },
+            "emptyfilter": "Nici un filtru. Căutarea ar putea fi suspendată dacă paginarea nu este suportată de server.",
+            "attributefilter": {
+                "add_condition": "Adaugă condiție",
+                "delete": "Șterge",
+                "add_group": "Adăugare grup",
+                "group_label_a": "Potrivire",
+                "group_label_b": "din următoarele condiții: ",
+                "combo_placeholder": "Atribut",
+                "text_placeholder": "Introduceți textul pe care doriți să îl căutți",
+                "attribute_filter_header": "Filtrați după atribut",
+                "tooltipTextField": "utilizați <b>*</b> pentru orice caracter</br>utilizați <b>.</b> pentru un singur caracter</br>utilizați <b>!</b> pentru a ignora caracterele (* și .)</br>",
+                "groupField": {
+                    "any": "orice",
+                    "all": "toate",
+                    "none": "nici unul"
+                },
+                "numberfield": {
+                    "isRequired": "Valoarea câmpului necesară",
+                    "wrong_range": "Limita inferioară trebuie să fie mai mică decât limita superioară"
+                },
+                "datefield": {
+                    "wrong_date_range": "Data de început trebuie să fie anterioară datei de sfârșit"
+                },
+                "autocomplete": {
+                    "emptyList": "Fără rezultate",
+                    "emptyFilter": "Filtrul nu a dat niciun rezultat",
+                    "open": "Deschide combobox"
+                }
+            },
+            "spatialfilter": {
+                "filterType": "Tip filtru",
+                "geometric_operation": "Operațiune geometrică",
+                "combo_placeholder": "Selectați...",
+                "spatial_filter_header": "Regiune de interes",
+                "remove": "Eliminați",
+                "draw_start_label": "Desenați regiunea de interes pe hartă",
+                "dwithin_label": "metri",
+                "details": {
+                    "detail_button_label": "Detalii",
+                    "details_header": "Detalii de selecție",
+                    "details_bbox_label": "Editați coordonatele pentru a modifica zona",
+                    "details_circle_label": "Editați câmpurile numerice pentru a modifica raza și centrul cercului",
+                    "reset_bbox": "Resetați",
+                    "save_bbox": "Salvează modificările BBOX",
+                    "save_radius": "Salvează modificările de pe rază și/sau centru",
+                    "radius": "Raza (m)"
+                },
+                "methods": {
+                    "zone": "Zona",
+                    "viewport": "Viewport",
+                    "regions": "Regiuni",
+                    "box": "Dreptunghi",
+                    "buffer": "Buffer",
+                    "circle": "Cerc",
+                    "poly": "Poligon",
+                    "cql": "CQL"
+                },
+                "operations": {
+                    "intersects": "intersectează",
+                    "bbox": "BoundingBox",
+                    "contains": "Este conținut",
+                    "dwithin": "Distanța de la",
+                    "within": "Conține"
+                }
+            },
+            "crossLayerFilter": {
+                "title": "Filtrați după strat",
+                "targetLayer": "Strat vizat",
+                "clear": "Șterge filtrul",
+                "operation": "Operațiune",
+                "placeholder": "Selectați stratul",
+                "errors": {
+                    "noCrossLayerAvailable": "Filtrarea stratului încrucișat nu este disponibilă pentru stratul selectat"
+                }
+            },
+            "changedFilter": "Filtru modificat",
+            "changedFilterAlert": "Există schimbări nesalvate. Vreiți să le salvați?",
+            "resetFilter": "Eliminați filtrul",
+            "confirmReset": "Confirmați",
+            "loadingError": "Filtrul curent a cauzat o problemă de redare pentru stratul de pe hartă.Vă rugăm să verificați configurația stratului pe server sau să remediați filtrul",
+            "changedFilterWithErrorAlert": "Filtrul provoacă o eroare de redare a stratului, doriți să îl salvați oricum?"
+        },
+        "annotations": {
+            "errorLoadingSymbols": "A apărut o problemă la încărcarea listei de simboluri.Vă rugăm să contactați administratorul pentru a verifica opțiunile de configurare",
+            "edit": "Editați",
+            "remove": "Șterge",
+            "save": "Salvează",
+            "cancel": "Anulare",
+            "back": "Înapoi",
+            "applyStyle": "Aplicați stil",
+            "addMarker": "Adăugați o nouă geometrie",
+            "styleGeometry": "Schimbați stilul",
+            "deleteGeometry": "Eliminați toate geometriile adnotării",
+            "removeannotation": "Doriți să eliminați adnotarea cu titlul: {title}?",
+            "removegeometry": "Doriți să eliminați toate caracteristicile adnotării?",
+            "confirm": "Confirmați",
+            "mandatory": "Câmp obligatoriu",
+            "emptygeometry": "Geometria nu poate fi goală",
+            "add": "Nou",
+            "filter": "Filtrare adnotări...",
+            "undo": "Sunteți sigur că doriți să abandonați sesiunea de editare a adnotărilor?",
+            "titleUndoGeom": "Geometria s-a schimbat",
+            "undoGeom": "Sunteți sigur că doriți să ieșiți fără a salva? (Veți pierde orice modificare)",
+            "confirmGeom": "Confirmați",
+            "cancelModalGeom": "Anulează",
+            "deleteFeature": "Șterge această caracteristică",
+            "undoDeleteFeature": "Sunteți sigur că doriți să ștergeți această caracteristică?",
+            "title": "Adnotări",
+            "zoomTo": "Zoom",
+            "insertText": "Vă rugăm să introduceți textul adnotării",
+            "downloadtooltip": "Descărcați adnotările",
+            "downloadcurrenttooltip": "Descărcați adnotarea curentă",
+            "downloadError": "Eroare la export",
+            "loadtooltip": "Importați adnotările",
+            "loadtitle": "Importați adnotările",
+            "selectfiletext": "Introduceți fișierul aici sau dați clic pentru a selecta fișierul de adnotare de importat. (Fișiere acceptate: JSON)",
+            "loadoverride": "Înlocuiți adnotările",
+            "loaderror": "Selectați unul sau mai multe fișiere cu adnotări.(Fișiere acceptate: json)",
+            "defaulttitle": "Editați titlul implicit",
+            "field": {
+                "title": "Titlu",
+                "description": "Descriere"
+            },
+            "titles": {
+                "marker": "Marker",
+                "line": "Linie",
+                "polygon": "Poligon",
+                "text": "Text",
+                "circle": "Cerc"
+            },
+            "editor": {
+                "decimal": "Zecimal",
+                "aeronautical": "Aeronautic",
+                "title": {
+                    "Polygon": "Editor poligon",
+                    "LineString": "Editor line",
+                    "Bearing": "Editor de direcție",
+                    "Circle": "Editor de cerc",
+                    "Point": "Editor de markere",
+                    "MultiPoint": "Editor multipoint",
+                    "Text": "Editor de text"
+                },
+                "center": "Centru",
+                "add": "Adăugați noi coordonate",
+                "addByClick": "Adăugați noi coordonate dând clic pe butonul plus sau pe hartă",
+                "valid": "Geometria este validă",
+                "radius": "Rază",
+                "text": "Text",
+                "lat": "Latitudine",
+                "lon": "Longitudine",
+                "notValidMarker": "Introduceți o coordonată validă( +  |  - 90 ° lat,  +  | -180 ° lon)",
+                "notValidPolyline": "Toate coordonatele trebuie să fie valide( +  |  - 90 ° lat,  +  | -180 ° lon)",
+                "notValidText": "Introduceți o valoare text și o coordonată validă( +  |  - 90 ° lat,  +  | -180 ° lon)",
+                "notValidCircle": "Introduceți o valoare a razei și o coordonată validă( +  |  - 90 ° lat,  +  | -180 ° lon)"
+            }
+        },
+        "user":{
+            "login": "Autentificare",
+            "logout": "Ieșire",
+            "info": "Informații cont",
+            "details": "Detalii despre utilizator",
+            "noAttributesMessage": "Nu există informații legate de contul dvs.",
+            "changePwd": "Schimbați parola",
+            "newPwd": "Parolă nouă",
+            "retypePwd": "Rescrieți parola",
+            "passwordMinlenght": "Parola dvs.trebuie să aibă cel puțin {minSize} caractere",
+            "passwordCheckFail": "Parola nu se potrivește!",
+            "passwordInvalid": "Parolă Invalidă",
+            "username": "Nume de utilizator",
+            "password": "Parola",
+            "passwordMessage": "Parola trebuie să conțină cel puțin 6 caractere",
+            "passwordChanged": "Parolă schimbată",
+            "passwordError": "Eroare la modificarea parolei",
+            "signIn":"Conectare",
+            "loginFail":"Conectare eșuată",
+            "loginFailedStatusMessages": {
+                "usernamePwdInsert": "Vă rugăm să introduceți numele de utilizator și parola",
+                "usernamePwdIncorrect": "Numele de utilizator sau parola incorecte"
+            },
+            "detailsName": "Nume",
+            "detailsRole": "Rol",
+            "detailsGroups": "Grupuri",
+            "detailsEmail": "E-mail",
+            "detailsCompany": "Companie",
+            "detailsNotes": "Note"
+        },
+        "users": {
+            "title": "Gestionează conturile",
+            "users": "Utilizatori",
+            "manageUsers": "Gestionare utilizatori",
+            "searchUsers": "Căutare utilizatori...",
+            "newUser": "Utilizator nou",
+            "editUser": "Editați utilizatorul",
+            "deleteUser": "Șterge utilizatorul",
+            "statusTitle": "Status",
+            "enabled": "Activat",
+            "groupTitle": "Grupuri:",
+            "roleTitle": "Rol",
+            "saveUser": "Salvează",
+            "savingUser": "Salvează...",
+            "userSaved": "Salvat!",
+            "createUser": "Creați",
+            "creatingUser": "Creează...",
+            "userCreated": "Creat!",
+            "deleting": "Șterge...",
+            "delete": "Șterge",
+            "confirmDeleteUser": "Sunteți sigur că doriți să ștergeți acest utilizator?",
+            "errorDelete": "A apărut o eroare la ștergerea acestui utilizator:",
+            "errorSaving": "A apărut o eroare la salvarea utilizatorului:",
+            "selectedGroups": "GRUPURI SELECȚIONATE",
+            "requiredFiedsMessage": "Câmpurile marcate cu asterisc (*) sunt obligatorii"
+        },
+        "usergroups": {
+          "searchGroups": "Căutați grupuri ...",
+            "groups": "Grupuri",
+            "nameLimit": "Numele este limitat la 255 de caractere.",
+            "descLimit": "Descrierea este limitată la 255 de caractere.",
+            "editGroup": "Editați grupul",
+            "deleteGroup": "Șterge grupul",
+            "removeUser": "Eliminați utilizatorul",
+            "newGroup": "Grup nou",
+            "manageGroups": "Gestionați grupuri",
+            "description": "Descriere: ",
+            "noDescriptionAvailable": "(Fără descriere)",
+            "groupName": "Numele grupului",
+            "groupDescription": "Descriere",
+            "saveGroup": "Salvează",
+            "createGroup": "Creați",
+            "creatingGroup": "Creează...",
+            "groupMembers": "Membrii:",
+            "addMember": "Adaugați membru:",
+            "noUsers": "Acest grup nu are utilizatori",
+            "errorSaving": "A apărut o eroare la salvarea acestui grup",
+            "errorDelete": "A apărut o eroare la ștergerea acestui grup",
+            "confirmDeleteGroup": "Sunteți sigur că doriți să ștergeți acest grup?"
+        },
+        "share":{
+            "title": "Partajare",
+            "titlePanel": "Partajați harta",
+            "socialIntro": "În rețeaua de socializare preferată",
+            "directLinkTitle": "Prin intermediul unui link direct",
+            "embeddedLinkTitle": "Prin codul încorporat",
+            "social": "Social",
+            "direct": "Link",
+            "code": "Încorporare",
+            "forceDrawer": "Afișați TOC",
+            "apiLinkTitle": "Utilizând API-uri",
+            "QRCodeLinkTitle": "Coduri qr",
+            "msgCopiedUrl": "Copiat",
+            "msgToCopyUrl": "Dați clic pentru a copia",
+            "sharedTitle": "Vezi noua mea hartă:",
+            "advancedOptions": "Opțiuni avansate",
+            "addBboxParam": "Adăugați parametrul bbox la linkul de partajare",
+            "wrongBboxParamTitle": "Parametrul bbox invalid",
+            "wrongBboxParamMessage": "Parametrul bbox trebuie să fie în EPSG:4326 și scris ca bbox = minx, miny, maxx, maxy"
+        },
+        "snapshot": {
+            "title": "Previzualizare snapshot",
+            "save": "Salvează",
+            "tooltip": "Salvați un snapshot al hărții.",
+            "googleBingError": "Straturile Google și Bing nu sunt disponibile pentru snapshot-uri, din cauza restricțiilor privind drepturile de autor.",
+            "downloadingSnapshots": "Generare snapshot în așteptare",
+            "date": "Dată",
+            "layers": "Straturi",
+            "size": "Mărime",
+            "notsupported": "Snapshot-ul nu este acceptat",
+            "taintedMessage": "Funcția de salvare a snapshot-ului este limitată din cauza unor reguli de securitate a browserului.Pentru rezultate mai bune dați clic dreapta pe previzualizare și selectați 'Salvați imaginea ca' (acceptată doar de Firefox și Chrome)."
+        },
+        "shapefile": {
+            "title": "Încărcați fișiere vectoriale",
+            "tooltip": "Adăugați un fișier vectorial pe hartă.",
+            "placeholder": "Inserați fișierele aici sau dați clic pentru a selecta fișierele vectoriale care trebuie importate.",
+            "defaultStyle": "Stil implicit",
+            "zoom": "Zoom pe fișierele vectoriale",
+            "error": {
+                "select": "Selectați unul sau mai multe fișiere.(Fișierele acceptate: fișierele shapefile trebuie să fie conținute în arhive zip, KML KMZ și GPX)",
+                "shapeFileParsingError": "Nu se poate încărca fișierul vectorial.Fișierul poate fi deteriorat sau nu este bine formatat",
+                "genericLoadError": "Nu se poate încărca fișierul vectorial pe hartă",
+                "missingPrj": "Lipsesc informațiile privind proiecția(.prj), sistemul de coordonate trebuie să fie EPSG:4326"
+            },
+            "add": "Adăugă",
+            "cancel": "Anulează",
+            "success": "Importat corect"
+        },
+        "mapImport": {
+            "title": "Importă",
+            "dropZone": {
+                "heading": "<p><h4>Importați aici configurația sau fișierele vectoriale </h4><small>sau</small></p>",
+                "selectFiles": "Selectați fișierele...",
+                "infoSupported": "<p><small>Fișiere de configurare acceptate: formatul vechi MapStore<br/>Fișiere vectorial acceptate: fișiere de formă(trebuie să fie conținute în arhive zip), KML / KMZ, GeoJSON sau GPX </small></p>",
+                "note": "<p><small><i><strong>notă </strong>: harta curentă va fi anulată în cazul fișierelor de configurare</i></small></p>"
+            },
+            "errors": {
+                "fileNotSupported": "Fișierul nu este acceptat",
+                "unknownError": "A apărut o eroare necunoscută în timpul importului"
+            }
+        },
+        "mapExport": {
+            "title": "Exportă hartă"
+        },
+        "catalog": {
+            "start": "Data de început",
+            "end": "Data de încheiere",
+            "notAvailable": "Nu e disponibil",
+            "title": "Catalog",
+            "autoload": "Căutați în serviciul selectat",
+            "clearValueText": "Anulează selecția",
+            "noResultsText": "Nici un rezultat",
+            "tooltip": "Parcurgeți catalogul",
+            "addToMap": "Adăugați pe hartă",
+            "getWMSLink": "Obțineți link WMS",
+            "error": "A apărut o eroare la încărcarea înregistrărilor din catalog",
+            "pageInfo": "Rezultate {start}-{end} din {total}",
+            "resultInfo": "{total, plural, =0 {Nici un rezultat} =1 {{total} rezultate din {total}} alte {{start}-{end} din {total}}}",
+            "pageInfoInfinite": "{total, plural, =undefined {} =0 {Nici un rezultat} =1 {{total} din {total} găsite} alte {Încărcate {loaded} din {total} găsite}}",
+            "noRecordsMatched": "Nici o înregistrare găsită",
+            "wmsGetCapLink": "WMS",
+            "wfsGetCapLink": "WFS",
+            "share": "Distribuiți",
+            "copyToClipboard": "Copiați în clipboard",
+            "copied": "Copiat!",
+            "textSearchPlaceholder": "text pentru a căuta...",
+            "search": "Căutare",
+            "delete": "Șterge",
+            "reset": "Anulează",
+            "options": "Opțiuni",
+            "srs_not_allowed": "Sistemul de coordonate al hărții nu este acceptat de acest serviciu",
+            "add": "Adăugă",
+            "service": "Serviciu",
+            "servicePlaceholder": "Selectați un serviciu",
+            "url": "Url",
+            "urlPlaceholder": "tastați o adresă URL",
+            "type": "Tip",
+            "serviceTitle": "Titlu",
+            "serviceTitlePlaceholder": "tastați un titlu",
+            "missingReference": "Lipsesc metadatele de referință OGC",
+            "showDescription": "Arată descrierea completă",
+            "hideDescription": "Ascundeți descrierea completă",
+            "templateFormatDescriptionExample": "Descrierea stratului este",
+            "showTemplate": "Afișează șablonul de metadate",
+            "showPreview": "Afișați previzualizarea",
+            "advancedSettings": "Setări avansate",
+            "templateMetadataAvailable": "Metadate disponibile din formatul Dublin Core: abstract, boundingBox, contribuitor, creator, descriere, format, identificator, referințe, drepturi, sursă, subiect, temporal, titlu, tip, uri",
+            "notification": {
+                "errorTitle": "Eroare",
+                "errorSearchingRecords": "Unele înregistrări nu au fost găsite: {records}.Vă rugăm să verificați parametrii din URL",
+                "warningAddCatalogService": "Introduceți un URL și un titlu valabil",
+                "addCatalogService": "Serviciu adăugat corect",
+                "duplicatedServiceTitle": "Există deja un serviciu cu acest titlu.Vă rugăm, schimbați titlul",
+                "serviceDeletedCorrectly": "Serviciul a fost șters corect",
+                "errorServiceUrl": "Serviciul nu este disponibil.Vă rugăm să verificați adresa URL furnizată"
+            }
+        },
+        "uploader": {
+            "filename": "Nume fișier",
+            "type": "Tip",
+            "lastModified": "Ultima modificare",
+            "filesize": "Mărimea",
+            "beforeUpload": "Efectuați operațiuni de pre-încărcare...",
+            "uploadingFiles": "Încărcarea fișierelor...",
+            "dropfile": "Inserați fișierele aici pentru a le încărca",
+            "dropfileImport": "Inserați fișierele aici pentru a le adăuga la acest proces"
+        },
+        "importer": {
+            "title": "Importați date",
+            "imports": "Sesiuni de import",
+            "importN": "Sesiune {id}",
+            "creatingImportProcess": "Crearea sesiunii de import...",
+            "dropfile": "Inserați fișierele aici pentru a crea o nouă sesiune de import",
+            "dropfileImport": "Inserați fișierele aici pentru a le adăuga la această sesiune",
+            "process": "Sesiune",
+            "number": "#",
+            "workspace": {
+                "create": "Creează",
+                "createWS": "Creați un spațiu de lucru nou:",
+                "target": "Spațiu de lucru țintă:",
+                "failure": "Eroare la crearea spațiului de lucru: {statusWS}",
+                "success": "Spațiul de lucru {statusWS} creat cu succes",
+                "select": "Selectați spațiul de lucru vizat",
+                "new": "Numele spațiului de lucru..."
+            },
+            "import": {
+                "actions": "Acțiuni",
+                "tasks": "Pachete",
+                "runImport": "Începe",
+                "deleteImport": "Șterge sesiunea",
+                "deleteTask": "Șterge",
+                "status": "Stare",
+                "archive": "Arhivă",
+                "deleting": "Ștergere în curs...",
+                "analyzing": "Se analizează pachetul...",
+                "applyingPreset": "Se aplică presetările..."
+            },
+            "task": {
+                "panelTitle": "Import pachet {id}",
+                "general": "Informații generale",
+                "status": "Stare",
+                "updateMode": "Modul de actualizare",
+                "originalData": "Fișier original",
+                "file": "Nume de fișier",
+                "format": "Format",
+                "targetStore": "Destinație",
+                "storeType": "Tip destinației",
+                "storeName": "Numele destinației",
+                "layer": "Strat",
+                "transforms": "Lanțul de transformări",
+                "update": "Actualizați",
+                "run": "Importați acest pachet",
+                "edit": "Editați stilul implicit",
+                "delete": "Șterge acest pachet"
+            },
+            "transform": {
+                "panelTitle": "Transformare {id}",
+                "type": "Tip de transformare",
+                "actions": "Acțiuni",
+                "options": "Opțiuni de transformare",
+                "overviewlevels": "Niveluri generale",
+                "delete": "Șterge această transformare"
+            }
+        },
+        "rasterstyler": {
+            "tooltip": "Creați și editați stilul stratului raster",
+            "paneltitle": "Raster Styler",
+            "layerlabel": "Strat",
+            "typelabel": "Tip stil",
+            "opacitylabel": "Opacitate",
+            "redtitle": "Roșu",
+            "greentitle": "Verde",
+            "bluetitle": "Albastru",
+            "graytitle": "Gri",
+            "pseudobandtitle": "Selecție bandă",
+            "eqinttitle": "Clasificare cu intervale egale",
+            "pseudotitle": "Setări PseudoColor",
+            "applybtn": "Aplicați stil"
+        },
+        "bandselector": {
+            "band": "Bandă",
+                "enhancement": "Îmbunătățire",
+                "algorithmTitle": "Algoritm opțional",
+                "value": "Valoare",
+                "min": "Minim",
+                "max": "Maxim",
+                "enha": {
+                    "none": "Nici unul",
+                    "Normalize": "Normalizare",
+                    "Histogram": "Histogramă",
+                    "GammaValue": "Corecție Gamma"
+            },
+            "algorithm": {
+                "none": "Nici unul",
+                "StretchToMinimumMaximum": "Stretch",
+                "ClipToMinimumMaximum": "Clip",
+                "ClipToZero": "Clip To Zero"
+            }
+        },
+        "equalinterval": {
+            "min": "Minim",
+            "max": "Maxim",
+            "classes": "Clase",
+            "ramp": "Rampă de culoare",
+            "classify": "Clasifică",
+            "maxerror": "Valoarea maximă trebuie să fie mai mare decât valoarea minină",
+            "minerror": "Valoarea minimă trebuie să fie mai mică decât valoarea maximă"
+        },
+        "colormapgrid": {
+            "color": "Culoare",
+            "quantity": "Cantitate",
+            "label": "Etichetă",
+            "minmaxerror": "Valoarea trebuie să fie între valorile celulei anterioare și celei următoare"
+        },
+        "pseudocolorsettings": {
+            "type": "Tip",
+            "extended": "Extins",
+            "colormap": "Hartă color",
+            "add": "Adăugați înregistrare",
+            "remove": "Eliminați intrarea"
+        },
+        "rasterstyletype": {
+            "rgb": "Roșu Verde Albastru",
+            "gray": "Scara tonurilor de gri",
+            "pseudo": "Pseudocolor",
+            "multi": "Bandă multiplă",
+            "single": "Bandă unică"
+        },
+        "featuregrid": {
+            "columns": "Coloane",
+            "header": "Lista rezultatelor căutării",
+            "tools": "Panoul de instrumente",
+            "export": "Export",
+            "selectall": "Selectați tot",
+            "deselectall": "Deselectați tot",
+            "backtosearch": "Înapoi la căutare",
+            "resultInfo": "{total, plural, =0 {Nici o înregistrare} =1 {{total} înregistrări din {total}} alte {{start}-{end} din {total}}}",
+            "resultInfoVirtual": "{total, plural, =0 {No items} =1 {{total} Item of {total}} other {{total} Înregistrări}}",
+            "pageInfo": "{totalPages, plural, =0 {Nici o pagină} =1 {Pagină {totalPages} of {totalPages}} alte {Pagină {page} din {totalPages}}}",
+            "pagination": {
+                "page": "Pagină",
+                "of": "de",
+                "to": "la",
+                "more": "Mai mult"
+            },
+            "noFeaturesAvailable": "Nu există funcții disponibile",
+                "errorSaving": "A apărut o eroare la salvare",
+                "errorProjFetch": "Eroare la preluarea definiției șirului proj4 de la spatialreference.org. Instrumentul de sincronizare nu poate aplica filtrul spațial.",
+                "notSupportedGeometryTitle": "Tip de geometrie neacceptat",
+                "notSupportedGeometry": "Tipul de geometrie a stratului curent nu este acceptat pentru editare, dar puteți să editați în continuare atribute",
+                "yesButton": "Da",
+                "noButton": "Nu",
+                "deleteButton": "Șterge",
+                "clear": "Sunteți sigur că anulați toate modificările pe care le-ați făcut?",
+                "featureClose": "Sunteți sigur că închideți grila de funcții?",
+                "delete": "Confirmați să ștergeți {count} elemente?",
+                "missingGeometry": "Geometrie lipsă",
+                "filter": {
+                    "placeholders": {
+                        "default": "Căutare...",
+                        "string": "Tastați textul pentru filtrare...",
+                        "date": "Tastați data pentru filtrare...",
+                        "number": "Tastați numărul sau expresia..."
+                        },
+                      "tooltips": {
+                        "editMode": "Căutarea rapidă nu este disponibilă în modul de editare",
+                        "default": "Căutare...",
+                        "string": "Tastați textul pentru filtrare...",
+                        "number": "Tastați un număr sau o expresie. Exemple: 10, > 2, <10",
+                        "date": "Tastați o dată sau o expresie. Utilizați {format} pentru dată."
+                }
+            },
+            "toolbar": {
+                "synchPopoverTitle": "Sincronizați harta cu filtrul",
+                    "synchPopoverText": "Folosiți acest instrument pentru a sincroniza harta cu filtrul selectat",
+                    "notShowAgain": "Nu afișați din nou acest mesaj",
+                    "editMode": "Mod editare",
+                    "advancedFilter": "Căutare avansată",
+                    "quitEditMode": "Renunțați la modul de editare",
+                    "addNewFeatures": "Adăugați elemnt nou",
+                    "editFeature": "Editați element",
+                    "drawGeom": "Desenați elemnt",
+                    "stopDrawGeom": "Anulează crearea geometriei",
+                    "addGeom": "Adăugați o formă geometriei existente",
+                    "deleteSelectedFeatures": "Șterge elementele selectate",
+                    "saveChanges": "Salvează modificările",
+                    "saving": "Salvare...",
+                    "cancelChanges": "Anulează modificările",
+                    "deleteGeometry": "Șterge geometria",
+                    "downloadGridData": "Descărcați datele",
+                    "hideShowColumns": "Ascunde/Arată coloanele",
+                    "zoomAll": "Zoom la dimensiunea paginii",
+                    "syncOnMap": "Sincronizați harta cu filtrul",
+                    "enableTimeSync": "Sincronizați cu timpul sau intervalul de timp selectat",
+                    "disableTimeSync": "Nu vă sincronizați cu timpul sau intervalul selectat",
+                    "createNewChart": "Creați o diagramă pentru stratul selectat"
+            }
+        },
+        "wfsdownload": {
+            "title": "Exportă datele",
+                "format": "Tipul fișierului",
+                "srs": "Sistem de referință spațială",
+                "export": "Exportă",
+                "downloadonlycurrentpage": "Descărcați doar pagina curentă",
+                "error": {
+                    "title": "Eroare în timpul exportului",
+                    "invalidOutputFormat": "Formatul pentru exportul selectat nu este disponibil"
+            }
+        },
+        "widgets": {
+            "types": {
+                "map": {
+                    "title": "Hartă",
+                    "caption": "Adaugă o hartă"
+                },
+                "legend": {
+                    "title": "Legendă",
+                    "caption": "Adaugă o legendă"
+                },
+                "chart": {
+                    "title": "Diagramă",
+                    "caption": "Adaugă o diagramă"
+                },
+                "text": {
+                    "title": "Text",
+                    "caption": "Adaugă text"
+                },
+                "table": {
+                    "title": "Tabel",
+                    "caption": "Adaugă tabel"
+                },
+                "counter": {
+                    "title": "Contor",
+                    "caption": "Adaugă contor"
+                }
+            },
+            "selectWidgetType": "Selectați tipul de widget",
+            "selectChartType": {
+                "title": "Selectați tipul de diagramă"
+            },
+            "selectMap": {
+                "TOC": {
+                    "noLayerTitle": "Fără straturi",
+                    "noLayerDescription": "Nu există straturi pe hartă.Dacă doriți să adăugați un strat din catalog, dați clic pe butonul '+' din bara de instrumente din partea de sus"
+                },
+                "emptyMap": {
+                    "title": "Hartă goală",
+                    "description": "Începe de la o hartă goală"
+                }
+            },
+            "title": "Titlu",
+            "description": "Descriere",
+            "errors": {
+                "notext": "Nu există text disponibil",
+                "nodata": "Nu există date disponibile pentru stratul/filtrul selectat",
+                "noLegend": "Nici o legendă de afișat",
+                "noLegendDescription": "Harta nu are straturi de afișat în legendă",
+                "nodatainviewport": "Nu există date în spațiul curent afișat",
+                "timeoutExpired": "Serviciul a necesitat prea mult timp pentru a răspunde. Este posibil ca interogarea să fie prea complexă sau serverul este ocupat",
+                "genericError": "A apărut o eroare în timpul recuperării datelor"
+            },
+            "builder": {
+                "header": {
+                    "title": "Widget"
+                },
+                "wizard": {
+                    "backToTypeSelection": "Înapoi la selecția tipului de diagramă",
+                    "backToWidgetTypeSelection": "Înapoi la selecția tipului de widget",
+                    "backToFeatureGrid": "Înapoi la grila cu funcții",
+                    "backToLayerSelection": "Înapoi la selectarea stratului",
+                    "backToMapSelection": "Înapoi la selectarea hărții",
+                    "backToPreview": "Înapoi la previzualizare",
+                    "backToChartOptions": "Înapoi la opțiuni pentru diagramă",
+                    "selectALayer": "Selectați un strat",
+                    "selectAMap": "Selectați o hartă",
+                    "configureChartOptions": "Configurați opțiunile graficului",
+                    "configureWidgetOptions": "Configurați opțiunile widget-ului",
+                    "backToTableOptions": "Înapoi la opțiunile tabelului",
+                    "configureTableOptions": "Configurați opțiunile tabelului",
+                    "resetColumnsSizes": "Resetați toate modificările la dimensiunile coloanelor",
+                    "updateWidget": "Actualizați widget-ul",
+                    "addTheWidget": "Adăugați widget-ul",
+                    "titlePlaceholder": "Inserați titlul...",
+                    "textPlaceholder": "Inserați text...",
+                    "useThisMap": "Folosiți această hartă",
+                    "configureMapOptions": "Configurați opțiunile pentru hartă",
+                    "preview": "Previzualizare",
+                    "addLayer": "Adăugați un strat pe hartă",
+                    "useTheSelectedLayer": "Folosiți stratul selectat",
+                    "connectToAMap": "Conectați-vă la o hartă",
+                    "connectToTheMap": "Conectați-vă la hartă",
+                    "selectMapToConnect": "Selectați harta pentru a vă conecta",
+                    "clearConnection": "Șterge conexiunea"
+                },
+                "errors": {
+                    "noAttributesTitle": "Nici un atribut de afișat",
+                    "noAttributesDescription": "Stratul selectat nu are atribute de afișat.Selectați un alt tip de widget sau strat",
+                    "noWidgetsAvailableTitle": "Nu se poate crea widget-ul pentru stratul selectat",
+                    "noWidgetsAvailableDescription": "<p><strong> Încercați să selectați un alt strat sau tip de widget </strong></p> <p> Serverul nu oferă serviciile necesare pentru stratul și tipul de widget selectat </p> <p> Cauzele posibile sunt: <ul> <li> Stratul selectat este un strat raster </li> <li> Serviciul WFS nu este disponibil </li> <li> Procesul WPS <code> gs: aggregate </code> nu este disponibil </li> </ul> </p>",
+                    "checkAtLeastOneAttribute": "Trebuie să selectați cel puțin o coloană",
+                    "noMapAvailableForLegend": "Nu există hartă disponibilă",
+                    "noMapAvailableForLegendDescription": "Aveți nevoie de cel puțin un widget de hartă pentru a crea legenda"
+                },
+                "setupFilter": "Configurați un filtru pentru datele widget-ului"
+            },
+            "widget": {
+                "menu": {
+                    "showChartData": "Afișați datele graficului",
+                    "edit": "Editați",
+                    "delete": "Șterge",
+                    "collapse": "Pliați",
+                    "confirmDelete": "Sunteți sigur?",
+                    "downloadData": "Descărcați datele",
+                    "exportImage": "Exportați imaginea",
+                    "pin": "Fixați",
+                    "unpin": "Anulează fixarea",
+                    "hide": "Ascundeți",
+                    "hideDescription": "Ascundeți acest widget către alți utilizatori",
+                    "unhide": "Arată",
+                    "unhideDescription": "Arătați widgetul la alți utilizatori"
+                }
+            },
+            "chartType": {
+                "bar": {
+                    "title": "Histogramă",
+                    "description": "Creați o histogramă pe care să o adăugați pe hartă",
+                    "caption": "histogramă"
+                    },
+                "pie": {
+                    "title": "Diagramă de tip plăcintă",
+                    "description": "Creați o diagramă de tip plăcintă pentru a adăuga pe hartă",
+                    "caption": "diagramă de tip plăcintă"
+                    },
+                "line": {
+                    "title": "Diagramă liniară",
+                    "description": "Creați o diagramă liniară pentru a adăuga pe hartă",
+                    "caption": "diagramă liniară"
+                    },
+                "gauge": {
+                    "title": "Diagramă Gauge",
+                    "description": "Creați o diagramă de tip gauge(manometru) pentru a fi adăugată pe hartă",
+                    "caption": "gauge(manometru)"
+                }
+            },
+            "chartOptionsTitle": "Configurați datele",
+            "widgetOptionsTitle": "Configurați informațiile despre widget",
+            "placeHolder": {
+                "default": "Selectați atributul"
+            },
+            "groupByAttributes": {
+                "line": "Atributul X",
+                "pie": "Grupați după",
+                "bar": "Atributul X",
+                "gauge": "Grupați după",
+                "counter": "Grupați după",
+                "default": "Grupați după"
+            },
+            "aggregationAttribute": {
+                "line": "Atributul Y",
+                "pie": "Utilizați",
+                "bar": "Atributul Y",
+                "gauge": "Utilizați",
+                "counter": "Utilizați",
+                "default": "Utilizați"
+            },
+            "aggregateFunction": {
+                "line": "Operațiune",
+                "pie": "Operațiune",
+                "bar": "Operațiune",
+                "gauge": "Operațiune",
+                "counter": "Operațiune",
+                "default": "Operațiune"
+            },
+            "colorRamp": {
+                "line": "Culoare",
+                "pie": "Rampă de culoare",
+                "bar": "Culoare",
+                "gauge": "Culoare",
+                "counter": "Culoare",
+                "default": "Culoare"
+            },
+            "uom": {
+                "line": "Unitate de măsură",
+                "pie": "Unitate de măsură",
+                "bar": "Unitate de măsură",
+                "gauge": "Unitate de măsură",
+                "counter": "Unitate de măsură",
+                "default": "Unitate de măsură"
+            },
+            "mapSync": "Filtrare dinamică după vizualizare",
+            "displayLegend": {
+                "line": "Afișează legendă",
+                "pie": "Afișează legendă",
+                "bar": "Afișează legendă",
+                "gauge": "Afișează etichetele"
+            },
+            "displayCartesian": {
+                "line": "Ascundeți grila",
+                "bar": "Ascundeți grila"
+            },
+            "xAxisAngle":{
+                "line": "Axa X: unghiul de rotație ° al etichetei",
+                  "bar": "Axa X: unghiul de rotație ° al etichetei"
+            },
+            "yAxis":{
+                "line": "Ascundeți axa Y",
+                "bar": "Ascundeți axa Y"
+            },
+            "yAxisLabel":{
+                "line": "Etichete legendă",
+                "bar": "Etichete legendă"
+            },
+            "advancedOptions":{
+                "line": "Opțiuni avansate",
+                "bar": "Opțiuni avansate"
+            },
+            "tray": {
+                "title": "Widgets",
+                "expandTray": "Extindeți bara de widget-uri",
+                "collapseTray": "Bara de widget-uri",
+                "expandAll": "Extindeți toate widget-urile",
+                "collapseAll": "Restrângeți toate widget-urile",
+                "notifications": {
+                    "collapsed": {
+                        "message": "Cronologia și widget-urile nu pot fi active în același timp. Utilizați bara widget-ului pentru a comuta între cronologie și widget",
+                        "timelineTitle": "Cronologia s-a pliat",
+                        "widgetsTitle": "Widget-urile s-au pliat"
+                    }
+                }
+            }
+        },
+        "dashboard": {
+            "loadingSpinner": "Se încarcă Dashboard-ul",
+            "saveDialog": {
+                "title": "Editați proprietățile dashboard-ului",
+                "name": "Nume",
+                "description": "Descriere",
+                "namePlaceholder": "Introduceți un nume...",
+                "descriptionPlaceholder": "Introduceți o descriere...",
+                "confirmCloseText": "Există modificări în curs, sunteți sigur că doriți să închideți fără a salva?",
+                "close": "Închide",
+                "cancel": "Anulare",
+                "saveSuccessTitle": "Succes",
+                "saveSuccessMessage": "Dashboard salvat cu succes"
+            },
+            "errors":{
+                "loading": {
+                    "title": "Eroare la încărcarea dashboard-ului",
+                    "dashboardNotAccessible": "Nu aveți permisiunea de a accesa acest dashboard. Vă rugăm să contactați proprietarul resursei",
+                    "pleaseLogin": "Acest dashboard nu este public. Vă rugăm să încercați să vă autentificați",
+                    "dashboardDoesNotExist": "Dashboard-ul pe care încercați să îl accesați nu există",
+                    "unknownError": "A apărut o eroare la încărcarea dashboard-ului. Vă rugăm să contactați administratorul",
+                    "notFound": "Dashboard-ul nu a fost găsit",
+                    "notAccessible": "Dashboard-ul nu este accesibil"
+                },
+                "resourceAlreadyExists": "Există deja o resursă cu acest nume. Încercați '{data}'"
+            },
+            "editor": {
+                "save": "Salvează dashboard-ul",
+                "addACardToTheDashboard": "Adăugați un widget în dashboard",
+                "showConnections": "Afișați conexiunile",
+                "hideConnections": "Ascundeți conecțiunile"
+            },
+            "emptyTitle": "Dashboard-ul este gol"
+        },
+        "wizard": {
+            "next": "Următorul",
+            "prev": "Anteriorul",
+            "finish": "Finalizați"
+        },
+        "vectorstyler": {
+            "tooltip": "Creați și editați stilul stratului vectorial",
+            "paneltitle": "Vector Styler",
+            "layerlabel": "Strat",
+            "rulelabel": "Reguli",
+            "namelabel": "Numele regulii",
+            "symboltitle": "Simbol",
+            "labeltitle": "Etichetă",
+            "conditiontitle": "Condiții",
+            "applybtn": "Aplicați stil",
+            "addrulebtn": "Adăugați o regulă",
+            "removerulebtn": "Eliminați regula"
+        },
+        "scaledenominator": {
+            "minlabel": "Numitor minim de scalare",
+            "maxlabel": "Numitor maxim de scalare",
+            "maxerror": "Valoarea maximă trebuie să fie mai mare decât valoarea minimă",
+            "minerror": "Valoarea minimă trebuie să fie mai mică decât valoarea maximă",
+            "none": "Nici unul"
+        },
+        "markNameSelector": {
+            "circle": "Cerc",
+            "square": "Pătrat",
+            "triangle": "Triunghi",
+            "star": "Stea",
+            "cross": "Cruce",
+            "x": "X"
+        },
+        "styler": {
+            "tooltip": "Creați și editați stilul stratului",
+            "paneltitle": "Styler",
+            "layerlabel": "Strat"
+        },
+        "styleeditor": {
+            "styleListfilterPlaceholder": "Filtrați stiluri după nume, titlu sau abstract",
+            "templateFilterPlaceholder": "Filtrați șabloanele pentru stiluri după titlu",
+            "createStyleFromTemplate": "Selectați un șablon pentru a crea un stil nou",
+            "titleRequired": "<div> Titlul este necesar! </div> <div> Titlul și rezumatul trebuie să fie alfanumerice </div>",
+            "titleSettings": "Titlu",
+            "titleSettingsplaceholder": "Introduceți titlul(alfanumeric)",
+            "abstractSettings": "Abstract",
+            "abstractSettingsplaceholder": "Introduceți abstractul(alfanumeric)",
+            "createStyleModalTitle": "Creați stil nou",
+            "filterMatchNotFound": "Niciun stil nu se potrivește cu filtrul de text",
+            "backToList": "Înapoi la lista de stiluri",
+            "createNewStyle": "Creați stil nou",
+            "editSelectedStyle": "Editați stilul selectat",
+            "saveCurrentStyle": "Salvează stilul curent",
+            "addSelectedTemplate": "Adăugați șablonul selectat la lista de stiluri",
+            "deleteSelectedStyle": "Șterge stilul selectat",
+            "closeWithoutSaveAlertTitle": "Stilul s-a schimbat",
+            "closeWithoutSaveAlert": "Renunți la editorul de stil fără a salva modificările",
+            "deleteStyleAlertTitle": "Șterge stilul",
+            "deleteStyleAlert": "Stilul selectat va fi șters definitiv",
+            "delete": "Șterge",
+            "defaultStyle": "Stil implicit",
+            "availableStyle": "Stil disponibil",
+            "styleNotFound": "Stilul nu a fost găsit",
+            "noPermission": "Utilizatorul nu poate edita stiluri",
+            "deletedStyleSuccessTitle": "Șterge stilul",
+            "deletedStyleSuccessMessage": "Stilul a fost șters cu succes",
+            "deletedStyleErrorTitle": "Șterge erorile de stil",
+            "deletedStyleErrorMessage": "Nu s-a putut șterge stilul curent",
+            "savedStyleTitle": "Stil salvat",
+            "savedStyleMessage": "Stilul a fost salvat cu succes",
+            "missingAvailableStyles": "Stiluri lipsă",
+            "missingAvailableStylesMessage": "<ul> <h4> Cauze posibile: </h4> <li> Stratul selectat este un grup de straturi </li> <li> Stratul nu este configurat corect în partea serverului </li> </ ul>",
+            "createTmpErrorTitle": "Stil temporar",
+            "createTmpStyleErrorMessage": "Stilul temporar nu a putut fi creat. Acest lucru poate fi datorat unui format de stil neacceptat de serviciul de stil",
+            "updateTmpErrorTitle": "Actualizare temporară a stilului",
+            "updateTmpStyleErrorMessage": "Stilul temporar nu a putut fi actualizat. Acesta se poate datora formatului de stil neacceptat sau unei probleme de conexiune.",
+            "createStyleErrorTitle": "Stil nou",
+            "createStyleErrorMessage": "Stilul nu a putut fi salvat. Acesta se poate datora formatului de stil neacceptat sau unei probleme de conexiune.",
+            "updateStyleErrorTitle": "Modificare stil",
+            "updateStyleErrorMessage": "Stilul nu a putut fi actualizat. Acesta se poate datora formatului de stil neacceptat sau unei probleme de conexiune.",
+            "validationErrorTitle": "Eroare de validare",
+            "genericValidationError": "Stilul nu este valabil și nu a putut fi aplicat.",
+            "setDefaultStyle": "Setați stilul selectat ca implicit pentru stratul curent",
+            "setDefaultStyleSuccessTitle": "Actualizarea cu succes a stilului implicit setat",
+            "setDefaultStyleSuccessMessage": "Stilul implicit a fost aplicat cu succes",
+            "setDefaultStyleErrorTitle": "Eroare la setarea stilului implicit",
+            "setDefaultStyleErrorMessage": "Nu este posibil să aplicați stilul selectat ca implicit"
+        },
+        "playback": {
+            "settings": {
+                "tooltip": "Setări",
+                "title": "Setări de redare",
+                "frameDuration": "Durată cadru",
+                "range": {
+                    "title": "Gama de animație",
+                    "zoomTooltip": "Zoom la intervalul actual de animație",
+                    "animationStart": "Începutul animației",
+                    "animationEnd": "Sfârșitul animației",
+                    "zoomToCurrentPlayackRange": "Zoom la intervalul de redare curent",
+                    "setToCurrentViewRange": "Setați la nivelul de zoom actual",
+                    "fitToSelectedLayerRange": "Încadrează la nivelul de zoom al straturilor selectate"
+                },
+                "step": {
+                    "tooltip": "Când opțiunea 'Reveniți la stratul de ghidare' este dezactivată, puteți personaliza pasul de animație",
+                    "label": "Pasul de animație",
+                    "year": "{number, plural, =0 {Anul} =1 {Anul} alțir {Ani}}",
+                    "week": "{number, plural, =0 {Săptămână} =1 {Săptămână} alte {Săptămâni}}",
+                    "day": "{number, plural, =0 {Ziua} =1 {Ziua} alte {Zile}}",
+                    "hour": "{number, plural, =0 {Oră} =1 {Oră} alte {Ore}}",
+                    "minute": "{number, plural, =0 {Minut} =1 {Minut} alte {Minute}}",
+                    "second": "{number, plural, =0 {Secundă} =1 {Secundă} alte {Secunde}}"
+                },
+                "mode": {
+                    "title": "Mod",
+                    "following": "Urmați animația",
+                    "followingDescription": "Când animația este activă, urmați cursorul"
+                }
+            },
+            "backwardStep": "Pas înapoi",
+            "forwardStep": "Pas înainte",
+            "play": "Redați",
+            "pause": "Pauză",
+            "paused": "Redare(pauză)",
+            "stop": "Stop"
+        },
+        "timeline": {
+            "settings": {
+                "title": "Setări cronologie",
+                "snapToGuideLayer": "Aliniați-vă la stratul de ghidare",
+                "snapToGuideLayerTooltip": "Forțează cursorul de timp să se alinieze la datele stratului selectat. Dezactivați această opțiune pentru a debloca cursoarele de timp și a activa personalizarea pasului de animație"
+            },
+            "hide": "Ascundeți cronologia",
+            "show": "Afișează cronologia",
+            "mapSyncOn": "Afișați tot timpul, fără a filtra în zona vizibilă a hărții",
+            "mapSyncOff": "Afișați doar orele disponibile în aria curentă",
+            "currentTime": "Du-te la ora actuală",
+            "rangeStart": "Accesați intervalul de timp curent",
+            "rangeEnd": "Accesați intervalul de timp curent",
+            "hideLayerName": "Ascundeți numele straturilor",
+            "showLayerName": "Afișați numele straturilor",
+            "enableRange": "Activați intervalul de timp",
+            "disableRange": "Dezactivați intervalul de timp",
+            "enablePlayBack": "Activați controalele de redare",
+            "disablePlayBack": "Dezactivați controalele de redare",
+            "expand": "Extindeți cursorul de timp",
+            "collapse": "Pliați cursorul de timp",
+            "collapsed": {
+                "title": "Cronologia s-a pliat",
+                "tooltip": "Dați clic aici pentru a o extinde din nou"
+                },
+              "errors": {
+                "multidim_error_title": "Serviciul de backend nu răspunde",
+                "multidim_error_message": "Serviciile necesare pentru asistență multidimensională nu răspund. Încercați din nou mai târziu sau contactați administratorul."
+            }
+        },
+        "rulesmanager": {
+            "apply": "Aplică",
+            "remove": "Eliminați geometria",
+            "resetconstraints": "Resetează restricțiile",
+            "constraintsmsg": "Modificând drepturile, spațiul de lucru sau stratul, detaliile vor fi șterse. Sunteți sigur că doriți să faceți asta ?",
+            "defstyle": "Stil implicit",
+            "avstyle": "Stiluri disponibile",
+            "clearbtn": "Ștergeți tot",
+            "selectbtn": "Selectează tot",
+            "placeholders": {
+                "role": "Tastați pentru a căuta roluri",
+                "user": "Tastați pentru a căuta utilizatori",
+                "service": "Tastați pentru a căuta servicii",
+                "request": "Tastați pentru a căuta servicii",
+                "workspace": "Tastați pentru a căuta spații de lucru",
+                "layer": "Tastați pentru a căuta straturi",
+                "access": "Tastați pentru a căuta Acces",
+                "ip": "###.###.###.###/##",
+                "priority": "Selectare prioritate",
+                "filter": "Filtrați stiluri..."
+            },
+            "menutitle": "Gestionează regulile de acces",
+            "tooltip": {
+                "addT": "Adăugați o regulă",
+                "editT": "Editați regula selectată",
+                "addBeT": "Adăugați o nouă regulă înainte de a fi selectată",
+                "addAfT": "Adăugați o nouă regulă după selectare",
+                "deleteT": "Eliminați regulile selectate",
+                "cacheT": "Șterge memoria cache",
+                "save": "Salvează regula curentă",
+                "close": "Ieșiți din regula creată"
+            },
+            "navItems": {
+                "main": "Regulă generală",
+                "style": "Stil",
+                "filter": "Filtre",
+                "attribute": "Reguli pentru atribute"
+            },
+            "rule": "Regulă",
+            "cachetitle": "Șterge memoria cache",
+            "cachemsg": "Sunteți sigur că doriți să ștergeți memoria cache?",
+            "deltitle": "Șterge regula",
+            "delmsg": "Doriți să ștergeți această regulă?",
+            "invalidForm": "Formularul nu este valabil, verificați valorile câmpurilor",
+            "ip": "IP",
+            "title": "Reguli de acces",
+            "role": "Rol",
+            "user": "Utilizator",
+            "priority": "Prioritate",
+            "service": "Serviciu",
+            "request": "Cerere",
+            "workspace": "Spațiul de lucru",
+            "layer": "Strat",
+            "filters": "Filtre",
+            "rules": "Reguli",
+            "access": "Acces",
+            "newModal": "Regulă nouă",
+            "editModal": "Modificați regula",
+            "newButton": "Creați",
+            "editButton": "Salvează",
+            "close": "Închideți",
+            "previous": "Anterior",
+            "next": "Următor",
+            "cacheCleaned": "Cache-ul a fost curățat cu succes",
+            "errorTitle": "Geofence",
+            "errorCQL": "Geometria nu este valabilă!",
+            "errorCleaningCache": "Eroare la curățarea memoriei cache.",
+            "errorLoadingRoles": "Eroare la încărcarea rolurilor.",
+            "errorLoadingUsers": "Eroare la încărcarea utilizatorilor.",
+            "errorLoadingWorkspaces": "Eroare la încărcarea spațiilor de lucru.",
+            "errorLoadingLayers": "Eroare la încărcarea straturilor.",
+            "errorLoadingRules": "Eroare la încărcarea regulilor.",
+            "errorMovingRules": "Eroare la mutarea regulilor.",
+            "errorDeletingRules": "Eroare la ștergerea regulilor.",
+            "errorAddingRule": "Eroare la adăugarea regulii.",
+            "errorUpdatingRule": "Eroare la salvarea regulii.",
+            "errorDuplicateRule": "Regula duplicată.",
+            "errorLoading": "Eroare la încărcare",
+            "deleteModal": "Șterge regulile",
+            "selectedRulesDelete": "Ștergeți regulile selectate?",
+            "deleteButton": "Șterge",
+            "cancelButton": "Anulare",
+            "cqlRead": "Regulile de citire a filtrului CQL",
+            "cqlWrite": "Regulile de scriere a filtrului CQL",
+            "missingconfig": "Lipsește configurația managerului de reguli. Accesul refuzat!",
+            "selectworkspace": "Trebuie să selectați spațiul de lucru pentru a activa opțiunile avansate"
+        },
+        "tutorial": {
+            "title": "Tutorial",
+            "back": "Înapoi",
+            "next": "Următorul",
+            "close": "Închide",
+            "skip": "Sari peste",
+            "last": "Finalizare",
+            "start": "Start",
+            "checkbox": "nu afișați din nou acest mesaj",
+            "error": "Eroare: obiectul nu a fost găsit",
+            "intro": {
+                "title": "Bine ați venit pe MapStore",
+                "text": "cadru pentru a construi aplicații de tipul WEBMAPPING folosind biblioteci standard, cum ar fi OpenLayers 3 și Leaflet."
+            },
+            "drawerMenu": {
+                "title": "Meniu principal",
+                "text": "Puteți găsi informații și instrumente pentru gestionarea stratului"
+            },
+            "searchBar": {
+                "title": "Bară de căutare",
+                "text": "Scrieți adresa locului pe care doriți să îl căutați. De exemplu 'Mehadia 16, București'.Puteți chiar să introduceți coordonate în acest format : 43.87,10.20"
+            },
+            "home": {
+                "title": "Acasă",
+                "text": "Dați clic pentru a merge la pagina principală"
+            },
+            "searchButton": {
+                "title": "Căutare",
+                "text": "Dați clic pentru a deschide bara de căutare, apoi scrieți adresa locului pe care doriți să îl găsiți. De exemplu : 'Mehadia 16, București'.Puteți chiar să introduceți coordonate în acest format: 43.87,10.20"
+            },
+            "burgerMenu": {
+                "title": "Meniul de opțiuni",
+                "text": "Puteți găsi informații despre opțiuni, setări și ajutor"
+            },
+            "zoomInButton": {
+                "title": "Mărește",
+                "text": "Dați clic pentru a mări harta"
+            },
+            "zoomOutButton": {
+                "title": "Micșorează",
+                "text": "Dați clic pentru a micșora harta"
+            },
+            "fullscreen": {
+                "title": "Ecran complet",
+                "text": "Dați clic pentru a trece pe ecran complet"
+            },
+            "identifyButton": {
+                "title": "Informații",
+                "text": "Apăsați butonul pentru a activa instrumentul, apoi dați clic pe hartă pentru a prelua informații din straturi"
+            },
+            "mapType": {
+                "title": "Bibliotecă",
+                "text": "Puteți alege Leaflet sau OpenLayers pentru a reda hărțile"
+            },
+            "mapsGrid": {
+                "title": "Hărți",
+                "text": "Iată câteva exemple a aplicației MapStore.Dați click pe o imagine pentru a încerca aplicația."
+            },
+            "examples": {
+                "title": "Aplicație personalizată",
+                "text": "Puteți utiliza componentele și pluginurile MapStore pentru a crea aplicații personalizate"
+            },
+            "introCesium": {
+                "title": "Instrucțiuni hartă 3D",
+                "text": "Dați clic pe butonul următor pentru a începe tutorialul"
+            },
+            "cesium": {
+                "title": "Interacțiuni cu harta",
+                "pan": "Vizualizare pan",
+                "zoom": "Vizualizare zoom",
+                "tilt": "Vedere înclinată",
+                "rotate": "Rotiți vizualizarea",
+                "oneDrag": "Trageți cu un deget",
+                "twoPinch": "Prinde cu două degete",
+                "twoDragSame": "Tragere cu două degete, aceeași direcție",
+                "twoDragOpposite": "Tragere cu două degete, direcție opusă",
+                "leftclic": "Dați clic stânga + insert",
+                "rightclic": "Dați clic dreapta + insert sau mișcare rotiță mouse",
+                "middleclic": "Dați clic pe + insert, sau CTRL + clic stânga / dreapta + insert"
+            },
+            "cesiumCompass": {
+                "title": "Busolă",
+                "text": "Puteți utiliza busola pentru a orbita pe glob. Glisați pentru a roti harta"
+            },
+            "cesiumNavigation": {
+                "title": "Navigare",
+                "text": "Aici puteți găsi butoanelepentru zoom in și zoom out"
+            },
+            "dashboardIntro": {
+                "title": "Tutorial dashboard",
+                "text": "Prezentare generală a funcționalităților dashboard-ului"
+            },
+            "dashboardNav": {
+                "title": "Bară de navigare",
+                "text": "Aici puteți găsi informații despre selectorul de limbă, autentificare, linkul paginii de pornire și meniul cu opțiuni"
+            },
+            "dashboardContainer": {
+                "title": "Dashboard",
+                "text": "<p> Un dashboard în MapStore oferă un set de informații colectate în mod adecvat pentru a afișa date agregate într-o singură vizualizare. Datele geospațiale afișate într-o hartă pot fi plasate împreună cu tabele de atribute, diagrame și altele, în scopul conectării diferitelor tipuri de informații, ilustrării detaliilor statistice și descrierii textuale referitoare la un context specific. </p> <p> Toți utilizatorii pot vizualiza și interacționa cu dashboar-urile publicate, dar numai utilizatorii autorizați să editeze pot adăuga, aranja, redimensiona sau șterge toate widget-urile dintr-un dashboard </p>"
+            },
+            "dashboardAddWidget": {
+                "title": "Adăugați widget",
+                "text": "Pentru a adăuga un widget în tabloul de bord, puteți face clic pe butonul +"
+            },
+            "dashboardBuilder": {
+                "title": "Creați un nou widget",
+                "text": "Puteți selecta ce tip de widget doriți și apoi se poate adăuga în dashboard selectând unul dintre elementele din listă"
+            },
+            "dashboardAddChart": {
+                "title": "Widget grafic",
+                "text": "<p><p> Este un widget care afișează și agregă date în diagrame de tip plăcintă, liniare sau histograme. </p> <p> Pași: </p> <p> <ul> <li> Selectați un strat vectorial <li> Selectați tipul de diagramă </li> <li> Configurați datele graficului </li> <li> Salvați și adăugați în dashboard </li> </ul> </p></li></ul></p>"
+            },
+            "dashboardAddText": {
+                "title": "Widget pentru texte",
+                "text": "<p><p>Adăugați propriul text în dashboard. </p> <p> Pași: </p> <p> <ul> <li> Editați textul în editor </li> <li> Salvați și adăugați în dashboard </li> </ul> </p>"
+            },
+            "dashboardAddTable": {
+                "title": "Widget pentru tabele",
+                "text": "<p>Adăugați un tabel de atribute în dashboard-ul care conține date dintr-un strat vectorial selectat. Puteți filtra date pentru a vă personaliza tabelul. </p> <p> Pași: </p> <p> <ul> <li> Selectați un strat vectorial </li> <li> Configurați datele tabelului </li> <li> Salvați și adăugați în dashboard </li> </ul> </p>"
+            },
+            "dashboardAddCounter": {
+                "title": "Widget pentru contor",
+                "text": "<p>Adăugați un contor nou în dashboard. Contorul va afișa date de agregare a valorilor numerice dintr-un strat vectorial selectat. </p> <p> Pași: </p> <p> <ul> <li> Selectați un strat vectorial</li>  <li> Configurați datele contorului </li> <li> Salvați și adăugați în dashboard </li> </ul> </p>"
+            },
+            "dashboardAddMap": {
+                "title": "Widget pentru hartă",
+                "text": "<p> Adăugați o nouă hartă interactivă în dashboard. Puteți adăuga mai multe hărți cu posibilitatea de a conecta alte widgeturi la acestea. După salvarea primei hărți, widgetul pentru legendă va fi adăugat în listă. Widget-ul de hartă va afișa o legendă legată de harta conectată. </p> <p> Pași: </p> <p>  <ul> <li> Selectați o hartă </li>  <li> Îmbunătățiți harta adăugând noi straturi </li> <li> Salvați și adăugați în dashboard </li> </ul> </p>"
+            }
+        }
+    }
+}
