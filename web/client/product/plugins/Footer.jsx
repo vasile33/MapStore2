@@ -9,7 +9,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Grid, Row, Col } from 'react-bootstrap';
-import src from "./attribution/geosolutions-brand.png";
+import src from "./attribution/logo-orizontal-anm.svg";
 import HTML from '../../components/I18N/HTML';
 import {createPlugin} from "../../utils/PluginsUtils";
 
@@ -39,9 +39,9 @@ class Footer extends React.Component {
             src,
             width: 140,
             height: 'auto',
-            href: 'https://www.geosolutionsgroup.com/',
-            title: 'GeoSolutions',
-            alt: 'GeoSolutions'
+            href: 'https://www.meteoromania.ro',
+            title: 'Meteo România',
+            alt: 'Meteo România'
         }
     };
 

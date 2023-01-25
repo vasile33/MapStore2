@@ -46,8 +46,8 @@ export default {
         NavMenu: {
             tool: (props) => ({
                 position: 0,
-                label: props.label || 'GeoSolutions',
-                href: props.href || 'https://www.geosolutionsgroup.com/',
+                label: props.label || 'Meteo România',
+                href: props.href || 'https://www.meteoromania.ro',
                 img: props.src && <img className="customer-logo" src={props.src} height="30" /> || <img className="customer-logo" src={src} height="30" />,
                 logo: true
             })
