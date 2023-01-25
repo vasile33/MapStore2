@@ -11,7 +11,7 @@ const {addLocaleData} = require('react-intl');
 
 const en = require('react-intl/locale-data/en');
 const it = require('react-intl/locale-data/it');
-const it = require('react-intl/locale-data/ro');
+const ro = require('react-intl/locale-data/ro');
 const fr = require('react-intl/locale-data/fr');
 const de = require('react-intl/locale-data/de');
 const es = require('react-intl/locale-data/es');
