@@ -612,7 +612,7 @@
                 "enableContextManager": true
             }
         }, "Login","Language", "NavMenu", "ScrollTop", "Notifications"],
-        "maps": ["HomeDescription", "MapSearch", "CreateNewMap", "FeaturedMaps", "ContentTabs", {"name": "Attribution", "cfg": {"src": "assets/img/training-mapstore-logo.png", "href": "http://www.roadapt.ro", "label": "Pagina oficială RO-ADAPT"}},
+        "maps": ["HomeDescription", "MapSearch", "CreateNewMap", "FeaturedMaps", "ContentTabs", {"name": "Attribution", "cfg": {"src": "assets/img/logo-roadapt-vertical.svg", "href": "http://www.roadapt.ro", "label": "Pagina oficială RO-ADAPT"}},
           {
             "name": "Maps",
             "cfg": {
@@ -661,7 +661,7 @@
           "NavMenu",
           "DashboardSave",
           "DashboardSaveAs",
-          {"name": "Attribution", "cfg": {"src": "assets/img/training-mapstore-logo.png", "href": "http://www.roadapt.ro", "label": "Pagina oficială RO-ADAPT"}},
+          {"name": "Attribution", "cfg": {"src": "assets/img/logo-roadapt-vertical.svg", "href": "http://www.roadapt.ro", "label": "Pagina oficială RO-ADAPT"}},
           "Home",
           { "name": "DeleteDashboard" },
           { "name": "DashboardExport" },
@@ -784,7 +784,7 @@
           },
           "Language",
           "NavMenu",
-          {"name": "Attribution", "cfg": {"src": "assets/img/training-mapstore-logo.png", "href": "http://www.roadapt.ro", "label": "Pagina oficială RO-ADAPT"}},
+          {"name": "Attribution", "cfg": {"src": "assets/img/logo-roadapt-vertical.svg", "href": "http://www.roadapt.ro", "label": "Pagina oficială RO-ADAPT"}},
           "Home",
           {
             "name": "GeoStory"
@@ -848,7 +848,7 @@
           "Language",
           "NavMenu",
           "Attribution",
-          {"name": "Attribution", "cfg": {"src": "assets/img/training-mapstore-logo.png", "href": "http://www.roadapt.ro", "label": "Pagina oficială RO-ADAPT"}},
+          {"name": "Attribution", "cfg": {"src": "assets/img/logo-roadapt-vertical.svg", "href": "http://www.roadapt.ro", "label": "Pagina oficială RO-ADAPT"}},
           "Tutorial",
           {
               "name": "ContextCreator",
