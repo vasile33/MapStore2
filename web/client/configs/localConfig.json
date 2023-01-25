@@ -611,7 +611,7 @@
             "cfg": {
                 "enableContextManager": true
             }
-        }, "Login","Language", "NavMenu", , "ScrollTop", "Notifications"],
+        }, "Login","Language", "NavMenu", "ScrollTop", "Notifications"],
         "maps": ["HomeDescription", "MapSearch", "CreateNewMap", "FeaturedMaps", "ContentTabs", {"name": "Attribution", "cfg": {"src": "assets/img/training-mapstore-logo.png", "href": "http://www.roadapt.ro", "label": "Pagina oficială RO-ADAPT"}},
           {
             "name": "Maps",
