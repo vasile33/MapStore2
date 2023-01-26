@@ -14,6 +14,9 @@ const ConfigUtils = require('@mapstore/utils/ConfigUtils').default;
  *
  * ConfigUtils.setConfigProp('translationsPath', ['./MapStore2/web/client/translations', './translations']);
  */
+
+import '../assets/css/custom.css';
+
 ConfigUtils.setConfigProp('translationsPath', './MapStore2/web/client/translations');
 ConfigUtils.setConfigProp('themePrefix', '__PROJECTNAME__');
 
